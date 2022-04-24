@@ -2,11 +2,16 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
-API_KEY = "k_zg8su4hn"
-base_url = "https://imdb-api.com/en/API/Search/" # default search api
+
+API_KEY_imdb = "k_zg8su4hn"
+base_url_imdb = "https://imdb-api.com/en/API/Search/" # default search api
+
+API_KEY_omdb = "67ea6826"
+base_url_omdb = "http://www.omdbapi.com/"
 
 ALL_CACHE_FILE = 'all_cache.json'
 KEY_CACHE_FILE = 'key_cache.json'
+
 
 def load_cache(all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE):
     '''
@@ -37,6 +42,7 @@ def load_cache(all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE):
 
     return all_cache, key_cache
 
+
 def save_cache(all_cache, key_cache, all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE):
     '''Save the cache
     
@@ -58,44 +64,125 @@ def save_cache(all_cache, key_cache, all_cache_name=ALL_CACHE_FILE, key_cache_na
     cache_file.write(contents_to_write)
     cache_file.close()
 
+
+def detailed_info():
+    for key_id in results_key:
+        params = {
+            "apiKey": API_KEY_omdb,
+            "i": key_id
+        }
+
+        response = requests.get(base_url_omdb, params)
+        result = response.json()
+
+        print(key_id)
+        print(result)
+
+
+def display_result(search_q, results_key, all_cache):
+    print(f"Searched query: {search_q}")
+
+    for idx, key_id in enumerate(results_key):
+        print(idx+1, all_cache[key_id]["title"], all_cache[key_id]["description"])
+
+
+def display_all(search_q, results_key, all_cache):
+    print(f"Searched query: {search_q}")
+
+    for key_id in results_key:
+        params = {
+            "apiKey": API_KEY_omdb,
+            "i": key_id
+        }
+
+        response = requests.get(base_url_omdb, params)
+        result = response.json()
+
+        print(key_id)
+        print(result)
+
+
+def display_idx(search_q, single_id, all_cache):
+    print(f"Searched query: {search_q}")
+
+    for key_id in results_key:
+        params = {
+            "apiKey": API_KEY_omdb,
+            "i": key_id
+        }
+
+        response = requests.get(base_url_omdb, params)
+        result = response.json()
+
+        print(key_id)
+        print(result)
+
+
+def valid_view(user_input, result_len):
+    if user_input.lower() == "all":
+        return "all"
+    elif user_input.lower() == "no":
+        return "no"
+    else:
+        try:
+            idx = int(user_input)
+            if idx > 0 and idx <= result_len:
+                return idx
+            else:
+                return "invalid"
+        except:
+            return "invalid"
+
+
 def main():
+    if_quit = False
 
     # load cache
     all_cache, key_cache = load_cache()
 
-    # prompt for user to choose search purpose (API)
+    while not if_quit:
+
+        # prompt for user to choose search purpose (API)
 
 
-    # prompt for user search query
-    search_q = input("Input your search query: ")
+        # prompt for user search query
+        search_q = input("Input your search query: ")
 
-    # check if the search_q has been cached
-    if search_q not in key_cache:
+        # check if the search_q has been cached, if not request through API
+        if search_q not in key_cache:
 
-        params = {
-            "apiKey": API_KEY,
-            "expression": search_q
-        }
-        
-        response = requests.get(base_url, params)
-        result = response.json()
+            params = {
+                "apiKey": API_KEY_imdb,
+                "expression": search_q
+            }
+            
+            response = requests.get(base_url_imdb, params)
+            result = response.json()
 
-        id_list = []
+            id_list = []
 
-        for single in result['results']:
-            id_list.append(single["id"])
-            all_cache[single["id"]] = single
-        
-        key_cache['search_q'] = id_list
+            for i, single in enumerate(result['results']):
+                id_list.append(single["id"])
+                all_cache[single["id"]] = single
+            
+            key_cache[search_q] = id_list
 
-    else:
-        pass
+        display_result(search_q, key_cache[search_q], all_cache)
+
+        if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step")
+
+        while valid_view(if_detailed) == "invalid":
+            print("Input is invalid, please try again!")
+            if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step")
+
+        if if_detailed == 'all':
+            display_all(search_q, key_cache[search_q], all_cache)
+        elif if_detailed == 'no':
+            continue
+        else:
+            display_idx(search_q, key_cache[search_q][if_detailed-1], all_cache)
 
 
-    '''
-    Not implemented yet
-
-    '''
 
     save_cache(all_cache, key_cache)
     
