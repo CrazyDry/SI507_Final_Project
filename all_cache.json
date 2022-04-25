@@ -138,5 +138,201 @@
     "image": "https://imdb-api.com/images/original/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_Ratio0.7273_AL_.jpg",
     "title": "The Lion King",
     "description": "(2019)"
+  },
+  "tt7678620": {
+    "id": "tt7678620",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMDBiNDI3YjQtNDdkNS00ZDliLTlmMmQtMDE4ZWM1ZGIyNjljXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Bluey",
+    "description": "(2018) (TV Series)"
+  },
+  "tt0062742": {
+    "id": "tt0062742",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZDU4ZDU0MzAtZWI4Ny00YzVjLWJmODYtZTEwMjg3ZGJhNDljXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Blue",
+    "description": "(1968)"
+  },
+  "tt2191148": {
+    "id": "tt2191148",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTQ3MTUyODIxOF5BMl5BanBnXkFtZTgwMzMwODY0MTE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Blue",
+    "description": "(2012) (TV Series)"
+  },
+  "tt1595859": {
+    "id": "tt1595859",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMjY0NTE1ODU3OV5BMl5BanBnXkFtZTgwOTI4NDQwMDI@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Blue Bloods",
+    "description": "(2010) (TV Series)"
+  },
+  "tt3480822": {
+    "id": "tt3480822",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNjRmNDI5MjMtMmFhZi00YzcwLWI4ZGItMGI2MjI0N2Q3YmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Black Widow",
+    "description": "(2021) aka \"Blue Bayou\""
+  },
+  "tt0080453": {
+    "id": "tt0080453",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BOWU2ZDIxY2UtNzM5NS00MWUwLTkxN2QtMmI3NDZkNTA2OTYxXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Blue Lagoon",
+    "description": "(1980)"
+  },
+  "tt0086190": {
+    "id": "tt0086190",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "description": "(1983) aka \"Blue Harvest\""
+  },
+  "tt0090756": {
+    "id": "tt0090756",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMzExOTczNTgtN2Q1Yy00MmI1LWE0NjgtNmIwMzdmZGNlODU1XkEyXkFqcGdeQXVyNDkzNTM2ODg@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Blue Velvet",
+    "description": "(1986)"
+  },
+  "tt0106079": {
+    "id": "tt0106079",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMjEzMjg2ODkzNV5BMl5BanBnXkFtZTcwNTk0MjAwMQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "NYPD Blue",
+    "description": "(1993) (TV Series)"
+  },
+  "tt1120985": {
+    "id": "tt1120985",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTU4MTQ2MzA1Ml5BMl5BanBnXkFtZTcwODE3NTgwNA@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Blue Valentine",
+    "description": "(2010)"
+  },
+  "tt1423995": {
+    "id": "tt1423995",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTgxOTk4MDIyOF5BMl5BanBnXkFtZTcwMzI3Nzc3Mw@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Stone",
+    "description": "(2010)"
+  },
+  "tt0072209": {
+    "id": "tt0072209",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNDllM2Q3OTItZjA0OC00MzJkLTg2OGMtNGY0MDRlYTI2NTQ0XkEyXkFqcGdeQXVyMTExMDY5MjY5._V1_Ratio0.7273_AL_.jpg",
+    "title": "Stone",
+    "description": "(1974)"
+  },
+  "tt0080283": {
+    "id": "tt0080283",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BYmU3MTI5NzAtNjNmNi00OTNkLWI0NzItZmFlMWVlNmY0MWFiXkEyXkFqcGdeQXVyMDM0MzU2NA@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Stone",
+    "description": "(1979) (TV Series)"
+  },
+  "tt0102984": {
+    "id": "tt0102984",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMzdiY2EyYmYtZjBjMy00NzI5LWI4YzEtMWUzYjZhNjQzNTU5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Stone Cold",
+    "description": "(1991)"
+  },
+  "tt1772264": {
+    "id": "tt1772264",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNjg5NjU0MTM4N15BMl5BanBnXkFtZTgwMjU1NDQzMjE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Stonehearst Asylum",
+    "description": "(2014)"
+  },
+  "tt0431420": {
+    "id": "tt0431420",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNDEzZTFiY2MtMzJkZC00ZTYwLWFlNmUtNjYxYWEzNDYyNjU4XkEyXkFqcGdeQXVyMTczNjQwOTY@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Jesse Stone: Stone Cold",
+    "description": "(2005) (TV Movie)"
+  },
+  "tt3018070": {
+    "id": "tt3018070",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMjE4MDY0Mjk0MV5BMl5BanBnXkFtZTgwMTkzMDY0NjE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Stonewall",
+    "description": "(2015)"
+  },
+  "tt15139516": {
+    "id": "tt15139516",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZWNiZmI2OGUtNDMzMi00YzAxLTg4OWYtN2Q0NDliZWVjMTZiXkEyXkFqcGdeQXVyMTgwNTk2Nw@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Stoner Cats",
+    "description": "(2021) (TV Series)"
+  },
+  "tt4236770": {
+    "id": "tt4236770",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZjhkNWM1NTQtODI4NS00NzllLTg1ODAtYjg3N2QxZjc3ZjRiXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Yellowstone",
+    "description": "(2018) (TV Series)"
+  },
+  "tt0241527": {
+    "id": "tt0241527",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "description": "(2001)"
+  },
+  "tt1468703": {
+    "id": "tt1468703",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTcyNzU1NTI1NV5BMl5BanBnXkFtZTcwNDAyODg5Mg@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Bear",
+    "description": "(I) (2010)"
+  },
+  "tt1904845": {
+    "id": "tt1904845",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMjk4NTY3ODkzMl5BMl5BanBnXkFtZTcwODk1MzAxNQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Bear",
+    "description": "(I) (2011) (Short)"
+  },
+  "tt19393764": {
+    "id": "tt19393764",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/nopicture.jpg",
+    "title": "Bear",
+    "description": "(Short)"
+  },
+  "tt0120655": {
+    "id": "tt0120655",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BYzAyOWUyZjQtNDBiMy00ZDExLTgwNmMtZDdmY2ViNzkyN2Y0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Dogma",
+    "description": "(1999) aka \"Bearclaw\""
+  },
+  "tt0328880": {
+    "id": "tt0328880",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTIyNTAyNDYxNF5BMl5BanBnXkFtZTYwNjYwMjg2._V1_Ratio0.7273_AL_.jpg",
+    "title": "Brother Bear",
+    "description": "(2003)"
+  },
+  "tt7886936": {
+    "id": "tt7886936",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BODE0OWQwZmItOGM2Ny00N2ViLTg0NmItZTU0YTAzMjE4MDM5XkEyXkFqcGdeQXVyODQyNDI4ODg@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Dating Amber",
+    "description": "(2020) aka \"Beards\""
+  },
+  "tt4123432": {
+    "id": "tt4123432",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_Ratio0.7273_AL_.jpg",
+    "title": "Fantastic Beasts: The Secrets of Dumbledore",
+    "description": "(2022)"
+  },
+  "tt11291274": {
+    "id": "tt11291274",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNDM2ODNiMWItOWRkNS00ODE3LWE2OGYtNTZkMDJkOWI1ODMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Unbearable Weight of Massive Talent",
+    "description": "(2022)"
   }
 }

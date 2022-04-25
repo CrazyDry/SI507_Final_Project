@@ -4,7 +4,7 @@ import json
 
 
 API_KEY_imdb = "k_zg8su4hn"
-base_url_imdb = "https://imdb-api.com/en/API/Search/" # default search api
+base_url_imdb = "https://imdb-api.com/en/API/SearchMovie/" # default search api
 
 API_KEY_omdb = "67ea6826"
 base_url_omdb = "http://www.omdbapi.com/"
@@ -87,35 +87,35 @@ def display_result(search_q, results_key, all_cache):
 
 
 def display_all(search_q, results_key, all_cache):
-    print(f"Searched query: {search_q}")
+    print(f"Searched query: {search_q} all")
 
-    for key_id in results_key:
-        params = {
-            "apiKey": API_KEY_omdb,
-            "i": key_id
-        }
+    # for key_id in results_key:
+    #     params = {
+    #         "apiKey": API_KEY_omdb,
+    #         "i": key_id
+    #     }
 
-        response = requests.get(base_url_omdb, params)
-        result = response.json()
+    #     response = requests.get(base_url_omdb, params)
+    #     result = response.json()
 
-        print(key_id)
-        print(result)
+    #     print(key_id)
+    #     print(result)
 
 
 def display_idx(search_q, single_id, all_cache):
-    print(f"Searched query: {search_q}")
+    print(f"Searched query: {search_q} idx")
 
-    for key_id in results_key:
-        params = {
-            "apiKey": API_KEY_omdb,
-            "i": key_id
-        }
+    # for key_id in results_key:
+    #     params = {
+    #         "apiKey": API_KEY_omdb,
+    #         "i": key_id
+    #     }
 
-        response = requests.get(base_url_omdb, params)
-        result = response.json()
+    #     response = requests.get(base_url_omdb, params)
+    #     result = response.json()
 
-        print(key_id)
-        print(result)
+    #     print(key_id)
+    #     print(result)
 
 
 def valid_view(user_input, result_len):
@@ -132,6 +132,28 @@ def valid_view(user_input, result_len):
                 return "invalid"
         except:
             return "invalid"
+
+
+def check_info(search_q, key_cache, all_cache):
+    while True:
+        if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
+
+        while valid_view(if_detailed, len(key_cache[search_q])) == "invalid":
+            print("Input is invalid, please try again!")
+            if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
+
+        if if_detailed == 'all':
+            display_all(search_q, key_cache[search_q], all_cache)
+        elif if_detailed == 'no':
+            return
+        else:
+            display_idx(search_q, key_cache[search_q][int(if_detailed)-1], all_cache)
+        
+        check_another = input("Would you like check other search results? (Y/N): ")
+        if check_another.lower() == "no" or check_another.lower() == "n":
+            return
+        else:
+            display_result(search_q, key_cache[search_q], all_cache)
 
 
 def main():
@@ -167,22 +189,36 @@ def main():
             
             key_cache[search_q] = id_list
 
+        # display basic information
         display_result(search_q, key_cache[search_q], all_cache)
 
-        if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step")
+        # check if individual or all information
+        # if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
 
-        while valid_view(if_detailed) == "invalid":
-            print("Input is invalid, please try again!")
-            if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step")
+        # while valid_view(if_detailed, len(key_cache[search_q])) == "invalid":
+        #     print("Input is invalid, please try again!")
+        #     if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
 
-        if if_detailed == 'all':
-            display_all(search_q, key_cache[search_q], all_cache)
-        elif if_detailed == 'no':
+        # if if_detailed == 'all':
+        #     display_all(search_q, key_cache[search_q], all_cache)
+        # elif if_detailed == 'no':
+        #     pass
+        # else:
+        #     display_idx(search_q, key_cache[search_q][int(if_detailed)-1], all_cache)
+
+        check_info(search_q, key_cache, all_cache)
+
+        if_visualize = input("Would you like to visualize the information? (Y/N): ")
+        if new_search.lower() == "y" or new_search.lower() == "yes":
+            visualize(search_q, key_cache[search_q], all_cache)
+        
+        new_search = input("Would you want to start a new search? (Y/N): ")
+        if new_search.lower() == "y" or new_search.lower() == "yes":
             continue
         else:
-            display_idx(search_q, key_cache[search_q][if_detailed-1], all_cache)
+            if_quit = True
 
-
+    print("Goodbye!")
 
     save_cache(all_cache, key_cache)
     
