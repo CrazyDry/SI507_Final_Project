@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup
+import webbrowser
+import os
 import requests
 import json
+import plotly.graph_objects as go 
 
 
 API_KEY_imdb = "k_zg8su4hn"
@@ -11,9 +14,10 @@ base_url_omdb = "http://www.omdbapi.com/"
 
 ALL_CACHE_FILE = 'all_cache.json'
 KEY_CACHE_FILE = 'key_cache.json'
+OMDB_CACHE_FILE = 'omdb_cache.json'
 
 
-def load_cache(all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE):
+def load_cache(all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE, omdb_cache_name=OMDB_CACHE_FILE):
     '''
     Load cache if there is any, else return empty cache file.
     
@@ -26,24 +30,39 @@ def load_cache(all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE):
     cache: dictionary
     '''
     try:
-        all_cache_file = open(all_cache_name, 'r')
-        key_cache_file = open(key_cache_name, 'r')
+        all_cache_file = open(all_cache_name, 'r')        
 
         cache_file_contents = all_cache_file.read()
         all_cache = json.loads(cache_file_contents)
         all_cache_file.close()
 
+    except:
+        all_cache = {}
+    
+    try:
+        key_cache_file = open(key_cache_name, 'r')
+
         cache_file_contents = key_cache_file.read()
         key_cache = json.loads(cache_file_contents)
         key_cache_file.close()
     except:
-        all_cache = {}
         key_cache = {}
+    
+    try:
+        omdb_cache_file = open(omdb_cache_name, 'r')
 
-    return all_cache, key_cache
+        cache_file_contents = omdb_cache_file.read()
+        omdb_cache = json.loads(cache_file_contents)
+        omdb_cache.close()
+    except:
+        omdb_cache = {}
+
+    
+
+    return all_cache, key_cache, omdb_cache
 
 
-def save_cache(all_cache, key_cache, all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE):
+def save_cache(all_cache, key_cache, omdb_cache, all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE, omdb_cache_name=OMDB_CACHE_FILE):
     '''Save the cache
     
     Parameters
@@ -64,19 +83,10 @@ def save_cache(all_cache, key_cache, all_cache_name=ALL_CACHE_FILE, key_cache_na
     cache_file.write(contents_to_write)
     cache_file.close()
 
-
-def detailed_info():
-    for key_id in results_key:
-        params = {
-            "apiKey": API_KEY_omdb,
-            "i": key_id
-        }
-
-        response = requests.get(base_url_omdb, params)
-        result = response.json()
-
-        print(key_id)
-        print(result)
+    cache_file = open(omdb_cache_name, 'w')
+    contents_to_write = json.dumps(omdb_cache, indent=2)
+    cache_file.write(contents_to_write)
+    cache_file.close()
 
 
 def display_result(search_q, results_key, all_cache):
@@ -86,39 +96,85 @@ def display_result(search_q, results_key, all_cache):
         print(idx+1, all_cache[key_id]["title"], all_cache[key_id]["description"])
 
 
-def display_all(search_q, results_key, all_cache):
-    print(f"Searched query: {search_q} all")
+def display_detail(search_q, id_list, omdb_cache):
+    print(f"Direct to the detail information page...")
 
-    # for key_id in results_key:
-    #     params = {
-    #         "apiKey": API_KEY_omdb,
-    #         "i": key_id
-    #     }
+    IMDB_moive_file = open("IMDB_movie_info.json", "r")
+    cache_file_contents = IMDB_moive_file.read()
+    IMDB_moive_info = json.loads(cache_file_contents)
 
-    #     response = requests.get(base_url_omdb, params)
-    #     result = response.json()
+    text = '''
+<html>
+    <body>
+    <ol>
+    '''
+    
+    for id in id_list:
+        summary = IMDB_moive_info[id]['plot_summary'] if id in IMDB_moive_info else "Not Available"
+        synopsis = IMDB_moive_info[id]['plot_synopsis'] if id in IMDB_moive_info else "Not Available"
 
-    #     print(key_id)
-    #     print(result)
+        text += '''
+        <li>
+            <h3>{title} ({Year}, {Country})</h3>
+            <br>
+            <img src={img_url}>
+            <br>
+            <p>Released: {Released}</p>
+            <p>Runtime: {Runtime}</p>
+            <p>Genre: {Genre}</p>
+            <p>Director: {Director}</p>
+            <p>Actors: {Actors}</p>
+            <p>Plot: {Plot}</p>
+            <p>Language: {Language}</p>
+            <p>IMDB Rating: {imdbRating}</p>
+            <p>Plot Summary: {plot_summary}</p>
+            <p>Plot Summary: {plot_synopsis}</p>
+        </li>
+        '''.format(
+            title = omdb_cache[id]['Title'],
+            Year = omdb_cache[id]['Year'],
+            Country = omdb_cache[id]['Country'],
+            img_url = omdb_cache[id]['Poster'], 
+            Released = omdb_cache[id]['Released'],
+            Runtime = omdb_cache[id]['Runtime'],
+            Genre = omdb_cache[id]['Genre'],
+            Director = omdb_cache[id]['Director'],
+            Actors = omdb_cache[id]['Actors'],
+            Plot = omdb_cache[id]['Plot'],
+            Language = omdb_cache[id]['Language'],
+            imdbRating = omdb_cache[id]['imdbRating'],
+            plot_summary = summary,
+            plot_synopsis = synopsis,
+        )
 
 
-def display_idx(search_q, single_id, all_cache):
-    print(f"Searched query: {search_q} idx")
+    text += '''
+    </ol>
+    </body>
+</html>
+    '''
 
-    # for key_id in results_key:
-    #     params = {
-    #         "apiKey": API_KEY_omdb,
-    #         "i": key_id
-    #     }
+    IMDB_moive_file.close()
 
-    #     response = requests.get(base_url_omdb, params)
-    #     result = response.json()
+    file = open("results.html","w")
+    file.write(text)
+    file.close()
 
-    #     print(key_id)
-    #     print(result)
+    chrome_path = 'open -a /Applications/Google\ Chrome.app %s'
+    webbrowser.get(chrome_path).open("results.html")
 
 
-def valid_view(user_input, result_len):
+
+def valid_YN(user_input):
+    if user_input.lower() == "yes" or user_input.lower() == "y" or user_input.lower() == "yup":
+        return "yes"
+    elif user_input.lower() == "no" or user_input.lower() == "n" or user_input.lower() == "nope":
+        return "no"
+    else:
+        return "invalid"
+
+
+def valid_check_info(user_input, result_len):
     if user_input.lower() == "all":
         return "all"
     elif user_input.lower() == "no":
@@ -134,33 +190,58 @@ def valid_view(user_input, result_len):
             return "invalid"
 
 
-def check_info(search_q, key_cache, all_cache):
+def getDetail(id_list, omdb_cache):
+    for id in id_list:
+        if id not in omdb_cache:
+            omdb_params = {
+                "apiKey": API_KEY_omdb,
+                "i": id
+            }
+            omdb_response = requests.get(base_url_omdb, omdb_params)
+            omdb_cache[id] = omdb_response.json()
+    
+    return omdb_cache
+
+
+def check_info(search_q, key_cache, all_cache, omdb_cache):
     while True:
-        if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
+        user_choice = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
 
-        while valid_view(if_detailed, len(key_cache[search_q])) == "invalid":
+        while valid_check_info(user_choice, len(key_cache[search_q])) == "invalid":
             print("Input is invalid, please try again!")
-            if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
+            user_choice = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
 
-        if if_detailed == 'all':
-            display_all(search_q, key_cache[search_q], all_cache)
-        elif if_detailed == 'no':
+        if user_choice == 'all':
+            omdb_cache = getDetail(key_cache[search_q], omdb_cache)
+            display_detail(search_q, key_cache[search_q], omdb_cache)
+        elif user_choice == 'no':
             return
         else:
-            display_idx(search_q, key_cache[search_q][int(if_detailed)-1], all_cache)
+            omdb_cache = getDetail([key_cache[search_q][int(user_choice)-1]], omdb_cache)
+            display_detail(search_q, [key_cache[search_q][int(user_choice)-1]], omdb_cache)
         
-        check_another = input("Would you like check other search results? (Y/N): ")
-        if check_another.lower() == "no" or check_another.lower() == "n":
+        if_check_others = input("Would you like check other search results? (Y/N): ")
+        while valid_YN(if_check_others) == "invalid":
+            if_check_others = input("Would you like check other search results? (Y/N): ")
+        
+        if_check_others = valid_YN(if_check_others)
+        if if_check_others.lower() == "no":
             return
         else:
+            # if yes, display the search result for user to choose again
             display_result(search_q, key_cache[search_q], all_cache)
+
+
+def visualize(search_q, id_list, all_cache):
+    print("Visualize Results now!")
+
 
 
 def main():
     if_quit = False
 
     # load cache
-    all_cache, key_cache = load_cache()
+    all_cache, key_cache, omdb_cache = load_cache()
 
     while not if_quit:
 
@@ -173,54 +254,50 @@ def main():
         # check if the search_q has been cached, if not request through API
         if search_q not in key_cache:
 
-            params = {
+            imdb_params = {
                 "apiKey": API_KEY_imdb,
                 "expression": search_q
             }
             
-            response = requests.get(base_url_imdb, params)
-            result = response.json()
+            imdb_response = requests.get(base_url_imdb, imdb_params)
+            imdb_result = imdb_response.json()
 
             id_list = []
 
-            for i, single in enumerate(result['results']):
+            for i, single in enumerate(imdb_result['results']):
                 id_list.append(single["id"])
                 all_cache[single["id"]] = single
             
             key_cache[search_q] = id_list
 
-        # display basic information
+        # display basic information (interactive command line prompt)
         display_result(search_q, key_cache[search_q], all_cache)
+        
+        # check detailed information: director, cast, image ...
+        check_info(search_q, key_cache, all_cache, omdb_cache)
 
-        # check if individual or all information
-        # if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
-
-        # while valid_view(if_detailed, len(key_cache[search_q])) == "invalid":
-        #     print("Input is invalid, please try again!")
-        #     if_detailed = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
-
-        # if if_detailed == 'all':
-        #     display_all(search_q, key_cache[search_q], all_cache)
-        # elif if_detailed == 'no':
-        #     pass
-        # else:
-        #     display_idx(search_q, key_cache[search_q][int(if_detailed)-1], all_cache)
-
-        check_info(search_q, key_cache, all_cache)
-
+        # let user choose if to visualize the data
         if_visualize = input("Would you like to visualize the information? (Y/N): ")
-        if new_search.lower() == "y" or new_search.lower() == "yes":
+        while valid_YN(if_visualize) == "invalid":
+            if_visualize = input("Would you like to visualize the information? (Y/N): ")
+
+        if_visualize = valid_YN(if_visualize)
+        if if_visualize == "yes":
             visualize(search_q, key_cache[search_q], all_cache)
         
         new_search = input("Would you want to start a new search? (Y/N): ")
-        if new_search.lower() == "y" or new_search.lower() == "yes":
+        while valid_YN(new_search) == "invalid":
+            new_search = input("Would you want to start a new search? (Y/N): ")
+
+        new_search = valid_YN(new_search)
+        if new_search == "yes":
             continue
         else:
             if_quit = True
 
     print("Goodbye!")
 
-    save_cache(all_cache, key_cache)
+    save_cache(all_cache, key_cache, omdb_cache)
     
     #用两个api， 一个根据关键字return movielist （后期加入别的api search key），根据list到另一个api (open movie dataset) fetch movie的信息
 
