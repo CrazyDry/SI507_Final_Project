@@ -1,128 +1,146 @@
 {
-  "tt4106306": {
-    "Title": "Sky",
-    "Year": "2015",
-    "Rated": "Not Rated",
-    "Released": "15 Apr 2016",
-    "Runtime": "100 min",
-    "Genre": "Drama, Romance",
-    "Director": "Fabienne Berthaud",
-    "Writer": "Fabienne Berthaud, Pascal Arnold",
-    "Actors": "Diane Kruger, Norman Reedus, Gilles Lellouche",
-    "Plot": "Romy (Diane Kruger) is on holiday in the USA with her French husband, Richard (Gilles Lellouche). But the journey quickly turns into a settling of old scores for this worn out couple. After an ultimate fight, Romy decides to break fr",
-    "Language": "English, French",
-    "Country": "France, Germany",
-    "Awards": "1 nomination",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMTkyNTMzMDc3MV5BMl5BanBnXkFtZTgwMzA2MTQ3ODE@._V1_SX300.jpg",
+  "tt7678620": {
+    "Title": "Bluey",
+    "Year": "2018\u2013",
+    "Rated": "TV-Y",
+    "Released": "30 Sep 2018",
+    "Runtime": "7 min",
+    "Genre": "Animation, Family",
+    "Director": "N/A",
+    "Writer": "Joe Brumm",
+    "Actors": "David McCormack, Melanie Zanetti, Brad Elliott",
+    "Plot": "The slice-of-life adventures of an Australian Blue Heeler Cattle Dog puppy as she has fun with her family and friends in everyday situations.",
+    "Language": "English",
+    "Country": "Australia, United Kingdom",
+    "Awards": "7 wins & 4 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMDBiNDI3YjQtNDdkNS00ZDliLTlmMmQtMDE4ZWM1ZGIyNjljXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "5.9/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "50%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "55/100"
+        "Value": "9.7/10"
       }
     ],
-    "Metascore": "55",
-    "imdbRating": "5.9",
-    "imdbVotes": "2,223",
-    "imdbID": "tt4106306",
+    "Metascore": "N/A",
+    "imdbRating": "9.7",
+    "imdbVotes": "6,373",
+    "imdbID": "tt7678620",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
+  },
+  "tt0062742": {
+    "Title": "Blue",
+    "Year": "1968",
+    "Rated": "TV-14",
+    "Released": "10 May 1968",
+    "Runtime": "113 min",
+    "Genre": "Romance, Western",
+    "Director": "Silvio Narizzano",
+    "Writer": "Ronald M. Cohen, Meade Roberts",
+    "Actors": "Terence Stamp, Joanna Pettet, Karl Malden",
+    "Plot": "A young American who was raised by Mexican bandits, now must choose sides when his Mexican gang carries out violent murderous raids into U.S. border towns.",
+    "Language": "English",
+    "Country": "United Kingdom, United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZDU4ZDU0MzAtZWI4Ny00YzVjLWJmODYtZTEwMjg3ZGJhNDljXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.1/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.1",
+    "imdbVotes": "540",
+    "imdbID": "tt0062742",
     "Type": "movie",
-    "DVD": "16 Aug 2016",
+    "DVD": "17 May 2005",
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt0185113": {
-    "Title": "Sky",
-    "Year": "1975",
+  "tt2191148": {
+    "Title": "Blue",
+    "Year": "2012\u20132014",
     "Rated": "N/A",
-    "Released": "07 Apr 1975",
+    "Released": "11 Jun 2012",
     "Runtime": "30 min",
-    "Genre": "Family, Sci-Fi",
+    "Genre": "Drama",
     "Director": "N/A",
     "Writer": "N/A",
-    "Actors": "Marc Harrison, Stuart Lock, Cherrald Butterfield",
-    "Plot": "A young time-traveller with superhuman powers is stranded on Earth after running into a Black Hole. Pursued by the evil Goodchild, Sky is helped on his quest to find a way home by three human teenagers, Arby, Jane and Roy.",
-    "Language": "N/A",
-    "Country": "United Kingdom",
-    "Awards": "N/A",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BZTViOTU1Y2MtOTNmYi00ZWJlLWE3MDAtOTMxMDAyZTlmNzAzXkEyXkFqcGdeQXVyMjE5MjEyNjM@._V1_SX300.jpg",
-    "Ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.5/10"
-      }
-    ],
-    "Metascore": "N/A",
-    "imdbRating": "7.5",
-    "imdbVotes": "101",
-    "imdbID": "tt0185113",
-    "Type": "series",
-    "totalSeasons": "N/A",
-    "Response": "True"
-  },
-  "tt1712057": {
-    "Title": "Vaanam",
-    "Year": "2011",
-    "Rated": "Not Rated",
-    "Released": "29 Apr 2011",
-    "Runtime": "140 min",
-    "Genre": "Action, Crime, Drama",
-    "Director": "Radha Krishna Jagarlamudi",
-    "Writer": "S. Gnanagiri, Radha Krishna Jagarlamudi",
-    "Actors": "Silambarasan Rajendar, Bharath Srinivasan, Anushka Shetty",
-    "Plot": "There are 5 stories in this movie, which joins together in the climax.",
-    "Language": "Tamil",
-    "Country": "India",
-    "Awards": "1 win & 1 nomination",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BYzc0MGMyNmUtZDJhNC00YjEwLWE0N2QtMmE2NTNmNmM5NjIxXkEyXkFqcGdeQXVyODk1OTg3MTI@._V1_SX300.jpg",
-    "Ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "7.4/10"
-      }
-    ],
-    "Metascore": "N/A",
-    "imdbRating": "7.4",
-    "imdbVotes": "1,696",
-    "imdbID": "tt1712057",
-    "Type": "movie",
-    "DVD": "N/A",
-    "BoxOffice": "N/A",
-    "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
-  },
-  "tt0172495": {
-    "Title": "Gladiator",
-    "Year": "2000",
-    "Rated": "R",
-    "Released": "05 May 2000",
-    "Runtime": "155 min",
-    "Genre": "Action, Adventure, Drama",
-    "Director": "Ridley Scott",
-    "Writer": "David Franzoni, John Logan, William Nicholson",
-    "Actors": "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
-    "Plot": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "Actors": "Julia Stiles, Uriah Shelton, Brooklyn Lowe",
+    "Plot": "Blue is a mother with a secret life. She'll do anything to keep it from her son. But her past has other plans.",
     "Language": "English",
-    "Country": "United States, United Kingdom, Malta, Morocco",
-    "Awards": "Won 5 Oscars. 59 wins & 106 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "Country": "United States",
+    "Awards": "3 wins & 5 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ3MTUyODIxOF5BMl5BanBnXkFtZTgwMzMwODY0MTE@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "8.5/10"
+        "Value": "7.8/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.8",
+    "imdbVotes": "1,194",
+    "imdbID": "tt2191148",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
+  },
+  "tt1595859": {
+    "Title": "Blue Bloods",
+    "Year": "2010\u2013",
+    "Rated": "TV-14",
+    "Released": "24 Sep 2010",
+    "Runtime": "43 min",
+    "Genre": "Crime, Drama, Mystery",
+    "Director": "N/A",
+    "Writer": "Mitchell Burgess, Robin Green",
+    "Actors": "Donnie Wahlberg, Bridget Moynahan, Will Estes",
+    "Plot": "Revolves around a family of New York cops.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Nominated for 1 Primetime Emmy. 4 wins & 16 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjY0NTE1ODU3OV5BMl5BanBnXkFtZTgwOTI4NDQwMDI@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.8/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.8",
+    "imdbVotes": "38,105",
+    "imdbID": "tt1595859",
+    "Type": "series",
+    "totalSeasons": "12",
+    "Response": "True"
+  },
+  "tt3480822": {
+    "Title": "Black Widow",
+    "Year": "2021",
+    "Rated": "PG-13",
+    "Released": "09 Jul 2021",
+    "Runtime": "134 min",
+    "Genre": "Action, Adventure, Sci-Fi",
+    "Director": "Cate Shortland",
+    "Writer": "Eric Pearson, Jac Schaeffer, Ned Benson",
+    "Actors": "Scarlett Johansson, Florence Pugh, David Harbour",
+    "Plot": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
+    "Language": "English, Russian, Norwegian, Hungarian, Macedonian, Finnish",
+    "Country": "United States",
+    "Awards": "8 wins & 28 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjRmNDI5MjMtMmFhZi00YzcwLWI4ZGItMGI2MjI0N2Q3YmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.7/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "77%"
+        "Value": "79%"
       },
       {
         "Source": "Metacritic",
@@ -130,39 +148,188 @@
       }
     ],
     "Metascore": "67",
-    "imdbRating": "8.5",
-    "imdbVotes": "1,443,934",
-    "imdbID": "tt0172495",
+    "imdbRating": "6.7",
+    "imdbVotes": "343,512",
+    "imdbID": "tt3480822",
     "Type": "movie",
-    "DVD": "26 Sep 2000",
-    "BoxOffice": "$187,705,427",
+    "DVD": "06 Oct 2021",
+    "BoxOffice": "$183,651,655",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt1074638": {
-    "Title": "Skyfall",
-    "Year": "2012",
-    "Rated": "PG-13",
-    "Released": "09 Nov 2012",
-    "Runtime": "143 min",
-    "Genre": "Action, Adventure, Thriller",
-    "Director": "Sam Mendes",
-    "Writer": "Neal Purvis, Robert Wade, John Logan",
-    "Actors": "Daniel Craig, Javier Bardem, Naomie Harris",
-    "Plot": "James Bond's loyalty to M is tested when her past comes back to haunt her. When MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.",
-    "Language": "English, Turkish, Shanghainese, Portuguese, Japanese",
-    "Country": "United Kingdom, United States, Turkey",
-    "Awards": "Won 2 Oscars. 67 wins & 123 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMWZiNjE2OWItMTkwNy00ZWQzLWI0NTgtMWE0NjNiYTljN2Q1XkEyXkFqcGdeQXVyNzAwMjYxMzA@._V1_SX300.jpg",
+  "tt0080453": {
+    "Title": "The Blue Lagoon",
+    "Year": "1980",
+    "Rated": "R",
+    "Released": "02 Jul 1980",
+    "Runtime": "104 min",
+    "Genre": "Adventure, Drama, Romance",
+    "Director": "Randal Kleiser",
+    "Writer": "Henry De Vere Stacpoole, Douglas Day Stewart",
+    "Actors": "Brooke Shields, Christopher Atkins, Leo McKern",
+    "Plot": "In the Victorian period, two children are shipwrecked on a tropical island in the South Pacific. With no adults to guide them, the two make a simple life together, unaware that sexual maturity will eventually intervene.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Nominated for 1 Oscar. 4 wins & 8 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOWU2ZDIxY2UtNzM5NS00MWUwLTkxN2QtMmI3NDZkNTA2OTYxXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "7.8/10"
+        "Value": "5.8/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "92%"
+        "Value": "8%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "31/100"
+      }
+    ],
+    "Metascore": "31",
+    "imdbRating": "5.8",
+    "imdbVotes": "68,731",
+    "imdbID": "tt0080453",
+    "Type": "movie",
+    "DVD": "03 Dec 2002",
+    "BoxOffice": "$58,853,106",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0086190": {
+    "Title": "Star Wars: Episode VI - Return of the Jedi",
+    "Year": "1983",
+    "Rated": "PG",
+    "Released": "25 May 1983",
+    "Runtime": "131 min",
+    "Genre": "Action, Adventure, Fantasy",
+    "Director": "Richard Marquand",
+    "Writer": "Lawrence Kasdan, George Lucas",
+    "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher",
+    "Plot": "After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor's tr",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 1 Oscar. 23 wins & 20 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.3/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "82%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "58/100"
+      }
+    ],
+    "Metascore": "58",
+    "imdbRating": "8.3",
+    "imdbVotes": "1,014,703",
+    "imdbID": "tt0086190",
+    "Type": "movie",
+    "DVD": "21 Sep 2004",
+    "BoxOffice": "$309,306,177",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0090756": {
+    "Title": "Blue Velvet",
+    "Year": "1986",
+    "Rated": "R",
+    "Released": "01 Jan 1986",
+    "Runtime": "120 min",
+    "Genre": "Crime, Drama, Mystery",
+    "Director": "David Lynch",
+    "Writer": "David Lynch",
+    "Actors": "Isabella Rossellini, Kyle MacLachlan, Dennis Hopper",
+    "Plot": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Nominated for 1 Oscar. 18 wins & 18 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMzExOTczNTgtN2Q1Yy00MmI1LWE0NjgtNmIwMzdmZGNlODU1XkEyXkFqcGdeQXVyNDkzNTM2ODg@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "94%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "76/100"
+      }
+    ],
+    "Metascore": "76",
+    "imdbRating": "7.7",
+    "imdbVotes": "194,534",
+    "imdbID": "tt0090756",
+    "Type": "movie",
+    "DVD": "06 Feb 2001",
+    "BoxOffice": "$8,551,228",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0106079": {
+    "Title": "NYPD Blue",
+    "Year": "1993\u20132005",
+    "Rated": "TV-14",
+    "Released": "21 Sep 1993",
+    "Runtime": "45 min",
+    "Genre": "Crime, Drama, Mystery",
+    "Director": "N/A",
+    "Writer": "Steven Bochco, David Milch",
+    "Actors": "Dennis Franz, Jimmy Smits, Gordon Clapp",
+    "Plot": "Detectives from NYPD's 15th Precinct investigate homicides within their precinct.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 20 Primetime Emmys. 88 wins & 203 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjEzMjg2ODkzNV5BMl5BanBnXkFtZTcwNTk0MjAwMQ@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.6",
+    "imdbVotes": "13,411",
+    "imdbID": "tt0106079",
+    "Type": "series",
+    "totalSeasons": "12",
+    "Response": "True"
+  },
+  "tt1120985": {
+    "Title": "Blue Valentine",
+    "Year": "2010",
+    "Rated": "R",
+    "Released": "28 Jan 2011",
+    "Runtime": "112 min",
+    "Genre": "Drama, Romance",
+    "Director": "Derek Cianfrance",
+    "Writer": "Derek Cianfrance, Joey Curtis, Cami Delavigne",
+    "Actors": "Ryan Gosling, Michelle Williams, John Doman",
+    "Plot": "The relationship of a contemporary married couple, charting their evolution over a span of years by cross-cutting between time periods.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Nominated for 1 Oscar. 9 wins & 56 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTU4MTQ2MzA1Ml5BMl5BanBnXkFtZTcwODE3NTgwNA@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.4/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "86%"
       },
       {
         "Source": "Metacritic",
@@ -170,41 +337,76 @@
       }
     ],
     "Metascore": "81",
-    "imdbRating": "7.8",
-    "imdbVotes": "682,051",
-    "imdbID": "tt1074638",
+    "imdbRating": "7.4",
+    "imdbVotes": "194,152",
+    "imdbID": "tt1120985",
     "Type": "movie",
-    "DVD": "12 Feb 2013",
-    "BoxOffice": "$304,360,277",
+    "DVD": "10 May 2011",
+    "BoxOffice": "$9,706,328",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt9170516": {
-    "Title": "The Shadow in My Eye",
-    "Year": "2021",
-    "Rated": "TV-MA",
-    "Released": "09 Mar 2022",
-    "Runtime": "107 min",
-    "Genre": "Drama, History, War",
-    "Director": "Ole Bornedal",
-    "Writer": "Ole Bornedal",
-    "Actors": "Alex H\u00f8gh Andersen, Danica Curcic, Fanny Bornedal",
-    "Plot": "The fates of several Copenhagen residents collide when a WWII bombing mission accidentally targets a school full of children.",
-    "Language": "Danish, English, German, French",
-    "Country": "Denmark",
-    "Awards": "2 wins & 13 nominations",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BNzYzZTgxMTQtYTlhYy00OGJkLThkMGEtNjlhZTRkNDIwZTkyXkEyXkFqcGdeQXVyMTM0NTc2NDgw._V1_SX300.jpg",
+  "tt1691917": {
+    "Title": "Planes",
+    "Year": "2013",
+    "Rated": "PG",
+    "Released": "09 Aug 2013",
+    "Runtime": "91 min",
+    "Genre": "Animation, Adventure, Comedy",
+    "Director": "Klay Hall",
+    "Writer": "John Lasseter, Klay Hall, Jeffrey M. Howard",
+    "Actors": "Carlos Alazraqui, Dane Cook, Stacy Keach",
+    "Plot": "A cropdusting plane with a fear of heights lives his dream of competing in a famous around-the-world aerial race.",
+    "Language": "English, Spanish, French, German, Mandarin, Icelandic",
+    "Country": "United States",
+    "Awards": "5 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjAwODc5NzYzOF5BMl5BanBnXkFtZTcwNTk4MjEzOQ@@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "7.3/10"
+        "Value": "5.7/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "25%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "39/100"
       }
     ],
+    "Metascore": "39",
+    "imdbRating": "5.7",
+    "imdbVotes": "44,596",
+    "imdbID": "tt1691917",
+    "Type": "movie",
+    "DVD": "19 Nov 2013",
+    "BoxOffice": "$90,288,712",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt11155784": {
+    "Title": "Fly",
+    "Year": "2021",
+    "Rated": "N/A",
+    "Released": "14 Oct 2021",
+    "Runtime": "110 min",
+    "Genre": "Drama, Music, Romance",
+    "Director": "Katja von Garnier",
+    "Writer": "Anna Christ, Daphne Ferraro, Lene Pottgie\u00dfer",
+    "Actors": "Svenja Jung, Ben Wichert, Jasmin Tabatabai",
+    "Plot": "N/A",
+    "Language": "German",
+    "Country": "Germany",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTExOTdmYTQtOThhYS00MjZkLTg4ZTctNjVkZGM2OWVhYTEyXkEyXkFqcGdeQXVyMDY2ODY3NQ@@._V1_SX300.jpg",
+    "Ratings": [],
     "Metascore": "N/A",
-    "imdbRating": "7.3",
-    "imdbVotes": "7,130",
-    "imdbID": "tt9170516",
+    "imdbRating": "N/A",
+    "imdbVotes": "34",
+    "imdbID": "tt11155784",
     "Type": "movie",
     "DVD": "N/A",
     "BoxOffice": "N/A",
@@ -212,140 +414,278 @@
     "Website": "N/A",
     "Response": "True"
   },
-  "tt0286486": {
-    "Title": "The Shield",
-    "Year": "2002\u20132008",
-    "Rated": "TV-MA",
-    "Released": "12 Mar 2002",
-    "Runtime": "47 min",
-    "Genre": "Crime, Drama, Thriller",
-    "Director": "N/A",
-    "Writer": "Shawn Ryan",
-    "Actors": "Michael Chiklis, Michael Jace, Jay Karnes",
-    "Plot": "Follows the lives and cases of a dirty Los Angeles Police Department cop and the unit under his command.",
+  "tt0080339": {
+    "Title": "Airplane!",
+    "Year": "1980",
+    "Rated": "PG",
+    "Released": "02 Jul 1980",
+    "Runtime": "88 min",
+    "Genre": "Comedy",
+    "Director": "Jim Abrahams, David Zucker, Jerry Zucker",
+    "Writer": "Jim Abrahams, David Zucker, Jerry Zucker",
+    "Actors": "Robert Hays, Julie Hagerty, Leslie Nielsen",
+    "Plot": "A man afraid to fly must ensure that a plane lands safely after the pilots become sick.",
     "Language": "English",
     "Country": "United States",
-    "Awards": "Won 1 Primetime Emmy. 15 wins & 61 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMTcwNzQwODI5NV5BMl5BanBnXkFtZTcwNzQxMjI5MQ@@._V1_SX300.jpg",
+    "Awards": "Nominated for 1 BAFTA Film Award3 wins & 7 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZjA3YjdhMWEtYjc2Ni00YzVlLWI0MTUtMGZmNTJjNmU0Yzk2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "8.7/10"
-      }
-    ],
-    "Metascore": "N/A",
-    "imdbRating": "8.7",
-    "imdbVotes": "78,854",
-    "imdbID": "tt0286486",
-    "Type": "series",
-    "totalSeasons": "7",
-    "Response": "True"
-  },
-  "tt0405325": {
-    "Title": "Sky High",
-    "Year": "2005",
-    "Rated": "PG",
-    "Released": "29 Jul 2005",
-    "Runtime": "100 min",
-    "Genre": "Action, Comedy, Family",
-    "Director": "Mike Mitchell",
-    "Writer": "Paul Hernandez, Bob Schooley, Mark McCorkle",
-    "Actors": "Kurt Russell, Kelly Preston, Michael Angarano",
-    "Plot": "Set in an era where superheroes are commonly known and accepted, young William Stronghold, the son of the Commander and Jetstream, tries to find a balance between being a normal teenager and an extraordinary being.",
-    "Language": "English, Cantonese",
-    "Country": "United States",
-    "Awards": "1 nomination",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BZjA2NmY1OTQtMjE4Mi00NGRkLWFmODUtM2Q3ZTRlYjZhNWYwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "Ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.3/10"
+        "Value": "7.7/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "73%"
+        "Value": "97%"
       },
       {
         "Source": "Metacritic",
-        "Value": "62/100"
+        "Value": "78/100"
       }
     ],
-    "Metascore": "62",
-    "imdbRating": "6.3",
-    "imdbVotes": "85,417",
-    "imdbID": "tt0405325",
+    "Metascore": "78",
+    "imdbRating": "7.7",
+    "imdbVotes": "231,829",
+    "imdbID": "tt0080339",
     "Type": "movie",
-    "DVD": "29 Nov 2005",
-    "BoxOffice": "$63,946,815",
+    "DVD": "13 Dec 2005",
+    "BoxOffice": "$83,453,539",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt11794642": {
-    "Title": "Big Sky",
-    "Year": "2020\u2013",
-    "Rated": "TV-14",
-    "Released": "17 Nov 2020",
-    "Runtime": "60 min",
-    "Genre": "Crime, Drama, Mystery",
-    "Director": "N/A",
-    "Writer": "David E. Kelley",
-    "Actors": "Katheryn Winnick, Kylie Bunbury, Dedee Pfeiffer",
-    "Plot": "A private detective teams up with an ex-cop to solve a kidnapping case in Montana.",
+  "tt8430054": {
+    "Title": "Flee",
+    "Year": "2021",
+    "Rated": "PG-13",
+    "Released": "17 Jun 2021",
+    "Runtime": "89 min",
+    "Genre": "Documentary, Animation, Biography",
+    "Director": "Jonas Poher Rasmussen",
+    "Writer": "Jonas Poher Rasmussen, Amin Nawabi",
+    "Actors": "Daniel Karimyar, Fardin Mijdzadeh, Milad Eskandari",
+    "Plot": "FLEE tells the extraordinary true story of a man, Amin, on the verge of marriage which compels him to reveal his hidden past for the first time.",
+    "Language": "Danish, English, Dari, Russian, Swedish",
+    "Country": "Denmark, France, Norway, Sweden, Netherlands, United Kingdom, United States, Finland, Italy, Spain, Estonia, Slovenia",
+    "Awards": "Nominated for 3 Oscars. 82 wins & 135 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTBmYzU0NWQtMmE3NC00MTEyLWJlMDktOGIzYTlmZjJlNDZhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "98%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "91/100"
+      }
+    ],
+    "Metascore": "91",
+    "imdbRating": "8.0",
+    "imdbVotes": "11,237",
+    "imdbID": "tt8430054",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$339,754",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0106977": {
+    "Title": "The Fugitive",
+    "Year": "1993",
+    "Rated": "PG-13",
+    "Released": "06 Aug 1993",
+    "Runtime": "130 min",
+    "Genre": "Action, Crime, Drama",
+    "Director": "Andrew Davis",
+    "Writer": "Jeb Stuart, David Twohy, Roy Huggins",
+    "Actors": "Harrison Ford, Tommy Lee Jones, Sela Ward",
+    "Plot": "Dr. Richard Kimble, unjustly accused of murdering his wife, must find the real killer while being the target of a nationwide manhunt led by a seasoned U.S. Marshal.",
+    "Language": "English, Polish, Spanish",
+    "Country": "United States",
+    "Awards": "Won 1 Oscar. 13 wins & 37 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYmFmOGZjYTItYjY1ZS00OWRiLTk0NDgtMjQ5MzBkYWE2YWE0XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.8/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "96%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "87/100"
+      }
+    ],
+    "Metascore": "87",
+    "imdbRating": "7.8",
+    "imdbVotes": "286,997",
+    "imdbID": "tt0106977",
+    "Type": "movie",
+    "DVD": "25 Mar 1997",
+    "BoxOffice": "$183,875,760",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0338751": {
+    "Title": "The Aviator",
+    "Year": "2004",
+    "Rated": "PG-13",
+    "Released": "25 Dec 2004",
+    "Runtime": "170 min",
+    "Genre": "Biography, Drama",
+    "Director": "Martin Scorsese",
+    "Writer": "John Logan",
+    "Actors": "Leonardo DiCaprio, Cate Blanchett, Kate Beckinsale",
+    "Plot": "A biopic depicting the early years of legendary director and aviator Howard Hughes' career from the late 1920s to the mid 1940s.",
+    "Language": "English",
+    "Country": "United States, Germany",
+    "Awards": "Won 5 Oscars. 85 wins & 131 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZTYzMjA2M2EtYmY1OC00ZWMxLThlY2YtZGI3MTQzOWM4YjE3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "86%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "77/100"
+      }
+    ],
+    "Metascore": "77",
+    "imdbRating": "7.5",
+    "imdbVotes": "354,614",
+    "imdbID": "tt0338751",
+    "Type": "movie",
+    "DVD": "24 May 2005",
+    "BoxOffice": "$102,610,330",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0074812": {
+    "Title": "Logan's Run",
+    "Year": "1976",
+    "Rated": "PG",
+    "Released": "23 Jun 1976",
+    "Runtime": "119 min",
+    "Genre": "Action, Adventure, Sci-Fi",
+    "Director": "Michael Anderson",
+    "Writer": "David Zelag Goodman, William F. Nolan, George Clayton Johnson",
+    "Actors": "Michael York, Jenny Agutter, Richard Jordan",
+    "Plot": "A police officer in the future uncovers the deadly secret behind a society that worships youth.",
     "Language": "English",
     "Country": "United States",
-    "Awards": "1 win & 6 nominations",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BZTBjY2EwYjQtYjA3MC00YmJhLWI5NzktZjJlNjEyMDQwN2Y5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+    "Awards": "Won 1 Oscar. 7 wins & 4 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZjFiY2IyMmItNmUwZi00ZGYxLThiZGItMWZiZjE0NGVhNWNmXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
         "Value": "6.8/10"
-      }
-    ],
-    "Metascore": "N/A",
-    "imdbRating": "6.8",
-    "imdbVotes": "16,508",
-    "imdbID": "tt11794642",
-    "Type": "series",
-    "totalSeasons": "2",
-    "Response": "True"
-  },
-  "tt0259711": {
-    "Title": "Vanilla Sky",
-    "Year": "2001",
-    "Rated": "R",
-    "Released": "14 Dec 2001",
-    "Runtime": "136 min",
-    "Genre": "Fantasy, Mystery, Romance",
-    "Director": "Cameron Crowe",
-    "Writer": "Alejandro Amen\u00e1bar, Mateo Gil, Cameron Crowe",
-    "Actors": "Tom Cruise, Pen\u00e9lope Cruz, Cameron Diaz",
-    "Plot": "A self-indulgent and vain publishing magnate finds his privileged life upended after a vehicular accident with a resentful lover.",
-    "Language": "English, Spanish",
-    "Country": "United States, Spain",
-    "Awards": "Nominated for 1 Oscar. 5 wins & 34 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BYzFlMTJjYzUtMWFjYy00NjkyLTg1Y2EtYmZkMjdlOGQ1ZGYwL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "Ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.9/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "42%"
+        "Value": "63%"
       },
       {
         "Source": "Metacritic",
-        "Value": "45/100"
+        "Value": "53/100"
       }
     ],
-    "Metascore": "45",
-    "imdbRating": "6.9",
-    "imdbVotes": "260,613",
-    "imdbID": "tt0259711",
+    "Metascore": "53",
+    "imdbRating": "6.8",
+    "imdbVotes": "55,552",
+    "imdbID": "tt0074812",
     "Type": "movie",
-    "DVD": "21 May 2002",
-    "BoxOffice": "$100,618,344",
+    "DVD": "29 Jan 2008",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0091064": {
+    "Title": "The Fly",
+    "Year": "1986",
+    "Rated": "R",
+    "Released": "15 Aug 1986",
+    "Runtime": "96 min",
+    "Genre": "Drama, Horror, Sci-Fi",
+    "Director": "David Cronenberg",
+    "Writer": "George Langelaan, Charles Edward Pogue, David Cronenberg",
+    "Actors": "Jeff Goldblum, Geena Davis, John Getz",
+    "Plot": "A brilliant but eccentric scientist begins to transform into a giant man/fly hybrid after one of his experiments goes horribly wrong.",
+    "Language": "English",
+    "Country": "United States, Canada",
+    "Awards": "Won 1 Oscar. 7 wins & 10 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODcxMGMwOGEtMDUxMi00MzE5LTg4YTYtYjk1YjA4MzQxNTNlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "93%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "79/100"
+      }
+    ],
+    "Metascore": "79",
+    "imdbRating": "7.6",
+    "imdbVotes": "174,984",
+    "imdbID": "tt0091064",
+    "Type": "movie",
+    "DVD": "04 Oct 2005",
+    "BoxOffice": "$40,456,565",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0051622": {
+    "Title": "The Fly",
+    "Year": "1958",
+    "Rated": "Not Rated",
+    "Released": "16 Jul 1958",
+    "Runtime": "94 min",
+    "Genre": "Drama, Horror, Sci-Fi",
+    "Director": "Kurt Neumann",
+    "Writer": "James Clavell, George Langelaan",
+    "Actors": "David Hedison, Patricia Owens, Vincent Price",
+    "Plot": "A scientist has a horrific accident when he tries to use his newly invented teleportation device.",
+    "Language": "English, French",
+    "Country": "United States",
+    "Awards": "1 nomination",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMWRhMTY4NTgtYTljZi00ZGQzLWE3NWMtMmNjNzRkZmUyZjIyXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "95%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.1",
+    "imdbVotes": "22,784",
+    "imdbID": "tt0051622",
+    "Type": "movie",
+    "DVD": "10 Jun 2008",
+    "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"

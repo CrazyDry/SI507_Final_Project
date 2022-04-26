@@ -635,5 +635,68 @@
     "image": "https://imdb-api.com/images/original/MV5BMzIyNDE5ODI1OV5BMl5BanBnXkFtZTcwNTIyNDE0MQ@@._V1_Ratio0.7273_AL_.jpg",
     "title": "Ghost Rider",
     "description": "(2007)"
+  },
+  "tt1691917": {
+    "id": "tt1691917",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMjAwODc5NzYzOF5BMl5BanBnXkFtZTcwNTk4MjEzOQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Planes",
+    "description": "(2013) aka \"Flyvemaskiner\""
+  },
+  "tt11155784": {
+    "id": "tt11155784",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BOTExOTdmYTQtOThhYS00MjZkLTg4ZTctNjVkZGM2OWVhYTEyXkEyXkFqcGdeQXVyMDY2ODY3NQ@@._V1_Ratio0.7727_AL_.jpg",
+    "title": "Fly",
+    "description": "(I) (2021)"
+  },
+  "tt0080339": {
+    "id": "tt0080339",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZjA3YjdhMWEtYjc2Ni00YzVlLWI0MTUtMGZmNTJjNmU0Yzk2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Airplane!",
+    "description": "(1980) aka \"Flying High!\""
+  },
+  "tt8430054": {
+    "id": "tt8430054",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTBmYzU0NWQtMmE3NC00MTEyLWJlMDktOGIzYTlmZjJlNDZhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Flee",
+    "description": "(2021) aka \"Flykt\""
+  },
+  "tt0106977": {
+    "id": "tt0106977",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BYmFmOGZjYTItYjY1ZS00OWRiLTk0NDgtMjQ5MzBkYWE2YWE0XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Fugitive",
+    "description": "(1993) aka \"Flygtningen\""
+  },
+  "tt0338751": {
+    "id": "tt0338751",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZTYzMjA2M2EtYmY1OC00ZWMxLThlY2YtZGI3MTQzOWM4YjE3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Aviator",
+    "description": "(2004) aka \"Flygaren\""
+  },
+  "tt0074812": {
+    "id": "tt0074812",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZjFiY2IyMmItNmUwZi00ZGYxLThiZGItMWZiZjE0NGVhNWNmXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Logan's Run",
+    "description": "(1976) aka \"Flykten fr\u00e5n framtiden\""
+  },
+  "tt0091064": {
+    "id": "tt0091064",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BODcxMGMwOGEtMDUxMi00MzE5LTg4YTYtYjk1YjA4MzQxNTNlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Fly",
+    "description": "(1986)"
+  },
+  "tt0051622": {
+    "id": "tt0051622",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMWRhMTY4NTgtYTljZi00ZGQzLWE3NWMtMmNjNzRkZmUyZjIyXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Fly",
+    "description": "(1958)"
   }
 }

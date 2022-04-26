@@ -94,10 +94,12 @@ def display_result(search_q, results_key, all_cache):
 
     for idx, key_id in enumerate(results_key):
         print(idx+1, all_cache[key_id]["title"], all_cache[key_id]["description"])
+    
+    print()
 
 
 def display_detail(search_q, id_list, omdb_cache):
-    print(f"Direct to the detail information page...")
+    print(f"Direct to the detail information page...\n")
 
     IMDB_moive_file = open("IMDB_movie_info.json", "r")
     cache_file_contents = IMDB_moive_file.read()
@@ -177,7 +179,7 @@ def valid_YN(user_input):
 def valid_check_info(user_input, result_len):
     if user_input.lower() == "all":
         return "all"
-    elif user_input.lower() == "no":
+    elif user_input.lower() == "no" or user_input.lower() == "n" :
         return "no"
     else:
         try:
@@ -210,6 +212,8 @@ def check_info(search_q, key_cache, all_cache, omdb_cache):
         while valid_check_info(user_choice, len(key_cache[search_q])) == "invalid":
             print("Input is invalid, please try again!")
             user_choice = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
+        
+        user_choice = valid_check_info(user_choice, len(key_cache[search_q]))
 
         if user_choice == 'all':
             omdb_cache = getDetail(key_cache[search_q], omdb_cache)
@@ -232,8 +236,62 @@ def check_info(search_q, key_cache, all_cache, omdb_cache):
             display_result(search_q, key_cache[search_q], all_cache)
 
 
-def visualize(search_q, id_list, all_cache):
-    print("Visualize Results now!")
+def visualize(id_list, omdb_cache):
+
+    user_choice = input('''
+        Please choose the data visualization:
+        1. Run Time
+        2. Box Office
+        3. IMDB Votes
+        4. Rating Ranking
+    ''')
+
+    while not (user_choice.isnumeric() and 1 <= int(user_choice) and int(user_choice) <= 4):
+        user_choice = input('''
+            Please choose the data visualization:
+            1. Run Time
+            2. Box Office
+            3. IMDB Votes
+            4. Rating Ranking
+        ''')
+
+    print("Visualize Results now...")
+
+    if user_choice == '1':
+        # run time
+        all = []
+        movies = []
+        times = []
+
+        for id in id_list:
+            if id not in omdb_cache:
+                omdb_cache = getDetail([id], omdb_cache)
+            
+            all.append([int(omdb_cache[id]['Runtime'].split()[0]), omdb_cache[id]['Title']])
+            all.sort()
+
+        movies = [item[1] for item in all]
+        times = [item[0] for item in all]
+        
+        bar_data = go.Bar(x=movies, y=times)
+        basic_layout = go.Layout(title="Moive Run Time")
+        fig = go.Figure(data=bar_data, layout=basic_layout)
+
+        fig.write_html("runtime.html", auto_open=True)
+            
+    elif user_choice == '1':
+        # Box Office
+        pass
+    
+    elif user_choice == '1':
+        # imdbVotes
+        pass
+
+    else:
+        # rating ranking
+        pass
+
+
 
 
 
@@ -283,7 +341,7 @@ def main():
 
         if_visualize = valid_YN(if_visualize)
         if if_visualize == "yes":
-            visualize(search_q, key_cache[search_q], all_cache)
+            visualize(key_cache[search_q], omdb_cache)
         
         new_search = input("Would you want to start a new search? (Y/N): ")
         while valid_YN(new_search) == "invalid":
