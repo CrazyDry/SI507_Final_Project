@@ -219,7 +219,7 @@ def check_info(search_q, key_cache, all_cache, omdb_cache):
             omdb_cache = getDetail(key_cache[search_q], omdb_cache)
             display_detail(search_q, key_cache[search_q], omdb_cache)
         elif user_choice == 'no':
-            return
+            return omdb_cache
         else:
             omdb_cache = getDetail([key_cache[search_q][int(user_choice)-1]], omdb_cache)
             display_detail(search_q, [key_cache[search_q][int(user_choice)-1]], omdb_cache)
@@ -230,66 +230,95 @@ def check_info(search_q, key_cache, all_cache, omdb_cache):
         
         if_check_others = valid_YN(if_check_others)
         if if_check_others.lower() == "no":
-            return
+            return omdb_cache
         else:
             # if yes, display the search result for user to choose again
             display_result(search_q, key_cache[search_q], all_cache)
+    
+    return omdb_cache
+
+
+def displayplots(key, plot_name, id_list, omdb_cache):
+    all = []
+    items = []
+    movies = []
+
+    for id in id_list:
+        if id not in omdb_cache:
+            omdb_cache = getDetail([id], omdb_cache)
+        if key == "Runtime" and omdb_cache[id][key] != "N/A":
+            if key in omdb_cache[id]:
+                all.append([int(omdb_cache[id][key].split()[0]), omdb_cache[id]['Title'] + " (" + omdb_cache[id]['Released'] + ")"])
+                all.sort()
+        elif key == "BoxOffice":
+            if key in omdb_cache[id] and omdb_cache[id][key] != "N/A":
+                boxoffice = omdb_cache[id][key]
+                boxoffice = boxoffice.replace(',','')
+                boxoffice = int(boxoffice.replace('$',''))
+                all.append([boxoffice, omdb_cache[id]['Title'] + " (" + omdb_cache[id]['Released'] + ")"])
+                all.sort()
+        elif key == "imdbRating":
+            if key in omdb_cache[id] and omdb_cache[id][key] != "N/A":
+                imdbRating = float(omdb_cache[id][key])
+                all.append([imdbRating, omdb_cache[id]['Title'] + " (" + omdb_cache[id]['Released'] + ")"])
+                all.sort()
+        else:
+            if key in omdb_cache[id] and omdb_cache[id][key] != "N/A":
+                imdbVotes = int(omdb_cache[id][key].replace(',',''))
+                all.append([imdbVotes, omdb_cache[id]['Title'] + " (" + omdb_cache[id]['Released'] + ")"])
+                all.sort()
+
+
+    items = [item[0] for item in all]
+    movies = [item[1] for item in all]
+    
+    bar_data = go.Bar(x=movies, y=items)
+    basic_layout = go.Layout(title=plot_name)
+    fig = go.Figure(data=bar_data, layout=basic_layout)
+
+    fig.write_html(plot_name + ".html", auto_open=True)
+
+    return omdb_cache
 
 
 def visualize(id_list, omdb_cache):
 
     user_choice = input('''
-        Please choose the data visualization:
-        1. Run Time
-        2. Box Office
-        3. IMDB Votes
-        4. Rating Ranking
-    ''')
+Please choose the data visualization:
+1. Run Time
+2. Box Office
+3. IMDB Rating
+4. IMDB Votes
+Your Choice: ''')
 
     while not (user_choice.isnumeric() and 1 <= int(user_choice) and int(user_choice) <= 4):
         user_choice = input('''
-            Please choose the data visualization:
-            1. Run Time
-            2. Box Office
-            3. IMDB Votes
-            4. Rating Ranking
-        ''')
+Please choose the data visualization:
+1. Run Time
+2. Box Office
+3. IMDB Rating
+4. IMDB Votes
+Your Choice: ''')
 
     print("Visualize Results now...")
 
+    # display run time
     if user_choice == '1':
-        # run time
-        all = []
-        movies = []
-        times = []
+        omdb_cache = displayplots('Runtime', 'Movie Run Time', id_list, omdb_cache)
 
-        for id in id_list:
-            if id not in omdb_cache:
-                omdb_cache = getDetail([id], omdb_cache)
-            
-            all.append([int(omdb_cache[id]['Runtime'].split()[0]), omdb_cache[id]['Title']])
-            all.sort()
-
-        movies = [item[1] for item in all]
-        times = [item[0] for item in all]
-        
-        bar_data = go.Bar(x=movies, y=times)
-        basic_layout = go.Layout(title="Moive Run Time")
-        fig = go.Figure(data=bar_data, layout=basic_layout)
-
-        fig.write_html("runtime.html", auto_open=True)
-            
-    elif user_choice == '1':
-        # Box Office
-        pass
+    # display Box Office
+    elif user_choice == '2':
+        omdb_cache = displayplots('BoxOffice', 'Movie BoxOffice', id_list, omdb_cache)
     
-    elif user_choice == '1':
+    elif user_choice == '3':
         # imdbVotes
-        pass
+        omdb_cache = displayplots('imdbRating', 'IMDB Movie Rating', id_list, omdb_cache)
 
     else:
         # rating ranking
-        pass
+        omdb_cache = displayplots('imdbVotes', 'IMDB Movie Votes', id_list, omdb_cache)
+    
+    return omdb_cache
 
 
 
@@ -332,16 +361,20 @@ def main():
         display_result(search_q, key_cache[search_q], all_cache)
         
         # check detailed information: director, cast, image ...
-        check_info(search_q, key_cache, all_cache, omdb_cache)
+        omdb_cache = check_info(search_q, key_cache, all_cache, omdb_cache)
 
         # let user choose if to visualize the data
-        if_visualize = input("Would you like to visualize the information? (Y/N): ")
-        while valid_YN(if_visualize) == "invalid":
+        while True:
             if_visualize = input("Would you like to visualize the information? (Y/N): ")
+            while valid_YN(if_visualize) == "invalid":
+                if_visualize = input("Would you like to visualize the information? (Y/N): ")
 
-        if_visualize = valid_YN(if_visualize)
-        if if_visualize == "yes":
-            visualize(key_cache[search_q], omdb_cache)
+            if_visualize = valid_YN(if_visualize)
+            if if_visualize == "yes":
+                omdb_cache = visualize(key_cache[search_q], omdb_cache)
+            else:
+                break
+
         
         new_search = input("Would you want to start a new search? (Y/N): ")
         while valid_YN(new_search) == "invalid":

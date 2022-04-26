@@ -620,7 +620,7 @@
     "resultType": "Title",
     "image": "https://imdb-api.com/images/original/MV5BNzFjZmM1ODgtMDBkMS00NWFlLTg2YmUtZjc3ZTgxMjE1OTI2L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_Ratio0.7273_AL_.jpg",
     "title": "A Nightmare on Elm Street",
-    "description": "(1984) aka \"Ghost Street\""
+    "description": "(1984)"
   },
   "tt0087332": {
     "id": "tt0087332",
@@ -698,5 +698,173 @@
     "image": "https://imdb-api.com/images/original/MV5BMWRhMTY4NTgtYTljZi00ZGQzLWE3NWMtMmNjNzRkZmUyZjIyXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_Ratio0.7273_AL_.jpg",
     "title": "The Fly",
     "description": "(1958)"
+  },
+  "tt4287778": {
+    "id": "tt4287778",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNTEzYmZmOWItMjA0Zi00YzkxLThlMGMtNGIzODU1YThlMDRjXkEyXkFqcGdeQXVyNzU4NzQwMDE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Night",
+    "description": "(2017)"
+  },
+  "tt9659470": {
+    "id": "tt9659470",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BOGFmZDM1M2MtYTkxNy00ZjNhLTgxY2UtNGFmNTdkMTdmYTY0XkEyXkFqcGdeQXVyNDU5MTUwNTA@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Night",
+    "description": "(II) (2019)"
+  },
+  "tt2664934": {
+    "id": "tt2664934",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTg3Y2Y4MTItZTY4Zi00ZDY3LWE5M2ItYjNkYzQzZjg0NGZlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjU2MTk2MjU@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Night",
+    "description": "(2013)"
+  },
+  "tt7740496": {
+    "id": "tt7740496",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BOTI4NDhhNGEtZjQxZC00ZTRmLThmZTctOGJmY2ZlOTc0ZGY0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Nightmare Alley",
+    "description": "(2021)"
+  },
+  "tt2872718": {
+    "id": "tt2872718",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BN2U1YzdhYWMtZWUzMi00OWI1LWFkM2ItNWVjM2YxMGQ2MmNhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Nightcrawler",
+    "description": "(2014)"
+  },
+  "tt0083866": {
+    "id": "tt0083866",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
+    "title": "E.T. the Extra-Terrestrial",
+    "description": "(1982) aka \"Night Skies\""
+  },
+  "tt0983946": {
+    "id": "tt0983946",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BOWE2ODZhYWYtNTFiYy00MjdmLWIzZGEtNTkyOTc1NDIwMjk4XkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Fantasy Island",
+    "description": "(2020) aka \"Nightmare Island\""
+  },
+  "tt10234724": {
+    "id": "tt10234724",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNGM2ZjJmZDQtNTI5MS00ZTI0LTkyNjktM2RlYWY0YTY5MTYzXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio0.7273_AL_.jpg",
+    "title": "Moon Knight",
+    "description": "(2022) (TV Mini Series)"
+  },
+  "tt0468569": {
+    "id": "tt0468569",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Dark Knight",
+    "description": "(2008)"
+  },
+  "tt0120877": {
+    "id": "tt0120877",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTlmYzc0YmEtNDQ3ZS00ZmFjLTkxMmEtZDY5NGVmOWQ0MzQwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Vampires",
+    "description": "(1998)"
+  },
+  "tt0116650": {
+    "id": "tt0116650",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZThkNDdlYzgtYWUyNy00Nzk4LWJmZDgtOTIzNzZhOTkzOTQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Irma Vep",
+    "description": "(1996) aka \"Vampire\""
+  },
+  "tt0059125": {
+    "id": "tt0059125",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZjJlMWJhMDktZmM2Zi00ZjJkLThkM2EtMTAwNmFiZWViYTc1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Dr. Terror's House of Horrors",
+    "description": "(1965) aka \"Vampire\""
+  },
+  "tt3416742": {
+    "id": "tt3416742",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BYmYyYWY4NjgtNGQ2Yi00NDNiLWJlOTgtYjI1MTI0NjZkNjhhXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "What We Do in the Shadows",
+    "description": "(2014) aka \"Vampires en toute intimit\u00e9\""
+  },
+  "tt1438176": {
+    "id": "tt1438176",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTU2MDc0NDY0M15BMl5BanBnXkFtZTcwOTgzMTYyNQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Fright Night",
+    "description": "(2011) aka \"Vampire, vous avez dit vampire?\""
+  },
+  "tt0098577": {
+    "id": "tt0098577",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTM1MDAyMDYxMV5BMl5BanBnXkFtZTcwNDQwMzc3NA@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Vampire's Kiss",
+    "description": "(1988)"
+  },
+  "tt1624996": {
+    "id": "tt1624996",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMjIzNjYyMDU1OF5BMl5BanBnXkFtZTgwNzc1MjE0MDE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Vampire",
+    "description": "(I) (2011)"
+  },
+  "tt1826684": {
+    "id": "tt1826684",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTUwODQ1NTQ5MF5BMl5BanBnXkFtZTgwMjM1NTA2MDE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Green",
+    "description": "(2011)"
+  },
+  "tt7060688": {
+    "id": "tt7060688",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMzJjNWFhYjktNDE3NC00MWNjLWFmYWQtNGU1OTRjZGY4ODJkXkEyXkFqcGdeQXVyNjc3NTg0NzQ@._V1_Ratio0.7727_AL_.jpg",
+    "title": "Green",
+    "description": "(III) (2018) (Short)"
+  },
+  "tt5816020": {
+    "id": "tt5816020",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMzFmNWZmY2QtMTNkOC00OWM2LWEzYTktODQ0YTI1NTgwZWFiXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Green",
+    "description": "(2016) (Short)"
+  },
+  "tt9243946": {
+    "id": "tt9243946",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNjk4MzVlM2UtZGM0ZC00M2M1LThkMWEtZjUyN2U2ZTc0NmM5XkEyXkFqcGdeQXVyOTAzMTc2MjA@._V1_Ratio0.7727_AL_.jpg",
+    "title": "El Camino: A Breaking Bad Movie",
+    "description": "(2019) aka \"Greenbriar\""
+  },
+  "tt6966692": {
+    "id": "tt6966692",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Green Book",
+    "description": "(2018)"
+  },
+  "tt7737786": {
+    "id": "tt7737786",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMzcyMzU4MDUtM2JhOC00ZDg2LTg5MGMtZjc2OGMyMjhlMGE2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Greenland",
+    "description": "(2020)"
+  },
+  "tt9243804": {
+    "id": "tt9243804",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMjMxNTdiNWMtOWY0My00MjM4LTkwNzMtOGI0YThhN2Q4M2I4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Green Knight",
+    "description": "(2021)"
+  },
+  "tt0120689": {
+    "id": "tt0120689",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Green Mile",
+    "description": "(1999)"
   }
 }
