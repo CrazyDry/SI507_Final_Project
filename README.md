@@ -6,70 +6,67 @@ How to get API Keys:
 * Get the IMDb API key here: https://imdb-api.com/api. Register an account, and the key will appear in your profile.
 
 How to Run the code:
-Replace the OMDB API key and IMDb API key with your keys in final_proj.py
-Simply run the Python 3 file final_proj.py, and enjoy the movie search by inputting your query and interactive option in the command-line tool
+* Replace the OMDB API key and IMDb API key with your keys in final_proj.py
+* Simply run the Python 3 file final_proj.py, and enjoy the movie search by inputting your query and interactive option in the command-line tool
 
 Required packages and software:
-Plotly
-Chrome Web Browser
+* Plotly
+* Chrome Web Browser
 
 Data Sources
-IMDb-API
+* IMDb-API
 Base URL: "https://imdb-api.com/en/API/SearchMovie/" 
 Accessed by requesting through API
 JSON file format cached locally
-OMDB-API
+* OMDB-API
 Base URL: "http://www.omdbapi.com/"
 Accessed by requesting through API
 JSON file format cached locally
-IMDB Spoiler Dataset
+* IMDB Spoiler Dataset
 Download from Kaggle Dataset
 JSON file format. File missing comma between JSON object, need to fix the format
 
 Summary of Data:
 Three data sources
-IMDb-API cache: tested ~20 keyword search query, will contain more while using. Every search query will retrieve about 10 most related movies.
-OMDB-API cache: retrieved ~100 movie information, will contain more while using.
-1572 movie records available in IMDB Spoiler Dataset
+* IMDb-API cache: tested ~20 keyword search query, will contain more while using. Every search query will retrieve about 10 most related movies.
+* OMDB-API cache: retrieved ~100 movie information, will contain more while using.
+* IMDB Spoiler Dataset: 1572 movie records available
 
 Description of records (Key attributes)
-IMDb-API record: brief information about the movie
-Id: IMDb movie id, used to match movie record in OMDB cache
-Image: Link to the image of the movie
-Title: movie title
-Description: released year
+* IMDb-API record: brief information about the movie
+* Id: IMDb movie id, used to match movie record in OMDB cache
+* Image: Link to the image of the movie
+* Title: movie title
+* Description: released year
 
 OMDB-API record: detailed information about the movie
-Title: movie title
-Year: released year
-Rated: Motion picture content rating system
-Runtime: How long is this movie (min)
-Genre: movie genre
-Director: movie director
-Writer: names of play writer
-Actors: names of actors
-Language: movie language
-Country: which country produced the movie
-Plot: movie plot
-Released: Released Date
-imdbRating: IMDb rating score for the movies
+* Title: movie title
+* Year: released year
+* Rated: Motion picture content rating system
+* Runtime: How long is this movie (min)
+* Genre: movie genre
+* Director: movie director
+* Writer: names of play writer
+* Actors: names of actors
+* Language: movie language
+* Country: which country produced the movie
+* Plot: movie plot
+* Released: Released Date
+* imdbRating: IMDb rating score for the movies
 
 IMDB Spoiler Dataset: detailed plot summary and plot synopsis of the movie
-Movie_id: IMDb movie id
-Plot_summary: summary for the movie
-Plot_synopsis: synopsis of the movie
+* Movie_id: IMDb movie id
+* Plot_summary: summary for the movie
+* Plot_synopsis: synopsis of the movie
 
 Data Structure
 All my data is stored as tree structures in separate JSON files from the different data source.
 
 Function load_cache() and save_cache() in python file final_proj.py constructs trees from cached JSON files and stored data as JSON files.
-all_cache: JSON file contains brief data information stored in the tree structure.
- 
-key_cache: JSON file contains search query and response results, stored in the tree structure
-
-omdb_cache: JSON file contains detailed data information stored in the tree structure. 
-
-IMDB Spoiler Dataset: JSON file contains plot summary and plot synopsis of movies, stored in the tree structure
+* all_cache: JSON file contains brief data information stored in the tree structure.
+* key_cache: JSON file contains search query and response results, stored in the tree structure
+* omdb_cache: JSON file contains detailed data information stored in the tree structure. 
+* IMDB Spoiler Dataset: JSON file contains plot summary and plot synopsis of movies, stored in the tree structure
 
 Interaction and Presentation Options
 This project can help users search the movies based on some keywords. Detailed movie information will be generated and displayed in an HTML file.  Users can also visualize some stats related to these movies and compare for some interesting findings. Users can repeatedly search for new queries without restarting the program. All search records and related information will be cached for faster retrieval in future use.
