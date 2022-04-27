@@ -305,7 +305,7 @@
     "resultType": "Title",
     "image": "https://imdb-api.com/images/original/MV5BYzAyOWUyZjQtNDBiMy00ZDExLTgwNmMtZDdmY2ViNzkyN2Y0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
     "title": "Dogma",
-    "description": "(1999) aka \"Bearclaw\""
+    "description": "(1999)"
   },
   "tt0328880": {
     "id": "tt0328880",
@@ -866,5 +866,166 @@
     "image": "https://imdb-api.com/images/original/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_Ratio0.7273_AL_.jpg",
     "title": "The Green Mile",
     "description": "(1999)"
+  },
+  "tt11252248": {
+    "id": "tt11252248",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BYjA2MDM2YjctYzNhNC00NGEzLWFmYWEtODExODFkNmUyOGE2XkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Dog",
+    "description": "(2022)"
+  },
+  "tt0054821": {
+    "id": "tt0054821",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNjUyNGQ1MWEtYTgzMS00YzNlLWI1NzQtYTkzZTk5OGFkMGJkXkEyXkFqcGdeQXVyMjQzMzQzODY@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Le Doulos",
+    "description": "(1962) aka \"Dog\""
+  },
+  "tt6069264": {
+    "id": "tt6069264",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNGMxZDA1MzAtMDcyZS00MzZkLThiYjktOTA2ZDllNTZkNGQ4XkEyXkFqcGdeQXVyMDU0NjA0Ng@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Bitch",
+    "description": "(I) (2017)"
+  },
+  "tt3402236": {
+    "id": "tt3402236",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTAxNDkxODIyMDZeQTJeQWpwZ15BbWU4MDQ2Mjg4NDIy._V1_Ratio0.7273_AL_.jpg",
+    "title": "Murder on the Orient Express",
+    "description": "(2017)"
+  },
+  "tt13880104": {
+    "id": "tt13880104",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZDU4NTE3YTQtMzczMC00YzRkLWI5MjItNGE3NjQ0NTY4MzExXkEyXkFqcGdeQXVyODA0MjgyNzM@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Happening",
+    "description": "(2021) aka \"Doga\u0111aj\""
+  },
+  "tt10293406": {
+    "id": "tt10293406",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZGRhYjE2NWUtN2FkNy00NGI3LTkxYWMtMDk4Yjg5ZjI3MWI2XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Power of the Dog",
+    "description": "(2021)"
+  },
+  "tt0105236": {
+    "id": "tt0105236",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Reservoir Dogs",
+    "description": "(1992)"
+  },
+  "tt1015474": {
+    "id": "tt1015474",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNzQ0ZDM3MjUtZTAwNi00ZWEyLWE5NWEtOTI4OWFlYjI5YTk1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Train",
+    "description": "(I) (2008)"
+  },
+  "tt7613260": {
+    "id": "tt7613260",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BOWQ1YWUyM2MtMDM0Yi00ZmU4LWI3NWQtZWJkMWU2ODMxZTU2XkEyXkFqcGdeQXVyNjAyNzk4MjQ@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Keteke",
+    "description": "(2017) aka \"Train\""
+  },
+  "tt12593682": {
+    "id": "tt12593682",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNmZkMGJlODktNzMzMC00MmY2LTkzNDgtMjUwOWFiNjFjZGIwXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Bullet Train",
+    "description": "(2022)"
+  },
+  "tt1457767": {
+    "id": "tt1457767",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Conjuring",
+    "description": "(2013)"
+  },
+  "tt0139654": {
+    "id": "tt0139654",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMDZkMTUxYWEtMDY5NS00ZTA5LTg3MTItNTlkZWE1YWRjYjMwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Training Day",
+    "description": "(2001)"
+  },
+  "tt0117951": {
+    "id": "tt0117951",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMzA5Zjc3ZTMtMmU5YS00YTMwLWI4MWUtYTU0YTVmNjVmODZhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Trainspotting",
+    "description": "(1996)"
+  },
+  "tt5700672": {
+    "id": "tt5700672",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTkwOTQ4OTg0OV5BMl5BanBnXkFtZTgwMzQyOTM0OTE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Train to Busan",
+    "description": "(2016)"
+  },
+  "tt0094747": {
+    "id": "tt0094747",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMmZjODI2NDYtYzFhYy00Y2EzLThjNTQtYmY4M2FiYjUyYTAxXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Bird",
+    "description": "(1988)"
+  },
+  "tt3291788": {
+    "id": "tt3291788",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMjAzMTgyMjkzMV5BMl5BanBnXkFtZTgwNzQ3NDgwNzE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Bird",
+    "description": "(I) (2020)"
+  },
+  "tt6822956": {
+    "id": "tt6822956",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNzI3NzU1MjEtOGM3MS00Nzk5LWI2Y2MtZTE5NTM4NmVmNTcwXkEyXkFqcGdeQXVyOTU0NTAyOQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Bird",
+    "description": "(II) (2017) (Short)"
+  },
+  "tt7713068": {
+    "id": "tt7713068",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMzQ3NTQxMjItODBjYi00YzUzLWE1NzQtZTBlY2Y2NjZlNzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Birds of Prey",
+    "description": "(2020)"
+  },
+  "tt2737304": {
+    "id": "tt2737304",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMjAzMTI1MjMyN15BMl5BanBnXkFtZTgwNzU5MTE2NjM@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Bird Box",
+    "description": "(2018)"
+  },
+  "tt2562232": {
+    "id": "tt2562232",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "description": "(2014)"
+  },
+  "tt0115685": {
+    "id": "tt0115685",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTM2NjExODYyOF5BMl5BanBnXkFtZTcwNTc0NjgyNA@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Birdcage",
+    "description": "(1996)"
+  },
+  "tt0056869": {
+    "id": "tt0056869",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTAxNDA1ODc5MDleQTJeQWpwZ15BbWU4MDg2MDA4OTEx._V1_Ratio0.7273_AL_.jpg",
+    "title": "The Birds",
+    "description": "(1963)"
+  },
+  "tt4061620": {
+    "id": "tt4061620",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BYjhmMWY0ODAtMGRlZC00NGUwLWJlZGMtMzEzODkwODg1ZTA3XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_Ratio0.7273_AL_.jpg",
+    "title": "Firebird",
+    "description": "(I) (2021)"
   }
 }

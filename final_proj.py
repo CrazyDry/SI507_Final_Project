@@ -23,11 +23,15 @@ def load_cache(all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE, omd
     
     Parameters
     ----------
-    cache_file_name: default is "cache.json"
+    all_cache_name: default filename is "all_cache.json"
+    key_cache_name: default filename is "key_cache.json"
+    omdb_cache_name: default filename is "omdb_cache.json"
     
     Returns
     -------
-    cache: dictionary
+    all_cache: dictionary -- saved condensed information of movies
+    key_cache: dictionary -- saved search query and corresponding movie id
+    omdb_cache: dictionary -- saved detailed information of movies
     '''
     try:
         all_cache_file = open(all_cache_name, 'r')        
@@ -57,17 +61,21 @@ def load_cache(all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE, omd
     except:
         omdb_cache = {}
 
-    
-
     return all_cache, key_cache, omdb_cache
 
 
 def save_cache(all_cache, key_cache, omdb_cache, all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE, omdb_cache_name=OMDB_CACHE_FILE):
-    '''Save the cache
+    '''
+    Save the caches
     
     Parameters
     ----------
-    cache: dictionary
+    all_cache: dictionary -- saved condensed information of movies
+    key_cache: dictionary -- saved search query and corresponding movie id
+    omdb_cache: dictionary -- saved detailed information of movies
+    all_cache_name: default filename is "all_cache.json"
+    key_cache_name: default filename is "key_cache.json"
+    omdb_cache_name: default filename is "omdb_cache.json"
     
     Returns
     -------
@@ -90,6 +98,23 @@ def save_cache(all_cache, key_cache, omdb_cache, all_cache_name=ALL_CACHE_FILE, 
 
 
 def display_result(search_q, results_key, all_cache):
+    '''
+    Display basic information of mavies based on search result
+    
+    Parameters
+    ----------
+    all_cache: dictionary -- saved basic information of movies
+    key_cache: dictionary -- saved search query and corresponding movie id
+    omdb_cache: dictionary -- saved detailed information of movies
+    all_cache_name: default filename is "all_cache.json"
+    key_cache_name: default filename is "key_cache.json"
+    omdb_cache_name: default filename is "omdb_cache.json"
+    
+    Returns
+    -------
+    None
+    '''
+
     print(f"Searched query: {search_q}")
 
     for idx, key_id in enumerate(results_key):
@@ -99,8 +124,23 @@ def display_result(search_q, results_key, all_cache):
 
 
 def display_detail(search_q, id_list, omdb_cache):
+    '''
+    Display basic information of mavies based on search result
+    
+    Parameters
+    ----------
+    search_q: user input search query
+    id_list: contains selected movie id in omdb_cache
+    omdb_cache: dictionary -- saved detailed information of movies
+    
+    Returns
+    -------
+    None
+    '''
+
     print(f"Direct to the detail information page...\n")
 
+    # json file contains plot summary and plot synopsis
     IMDB_moive_file = open("IMDB_movie_info.json", "r")
     cache_file_contents = IMDB_moive_file.read()
     IMDB_moive_info = json.loads(cache_file_contents)
@@ -168,6 +208,17 @@ def display_detail(search_q, id_list, omdb_cache):
 
 
 def valid_YN(user_input):
+    '''
+    Validate user_input as "yes" like, "no" like, or "invalid" option 
+    
+    Parameters
+    ----------
+    user_input: user's input option
+    
+    Returns
+    -------
+    string: "yes", "no" or "invalid"
+    '''
     if user_input.lower() == "yes" or user_input.lower() == "y" or user_input.lower() == "yup":
         return "yes"
     elif user_input.lower() == "no" or user_input.lower() == "n" or user_input.lower() == "nope":
@@ -177,6 +228,21 @@ def valid_YN(user_input):
 
 
 def valid_check_info(user_input, result_len):
+    '''
+    Validate user_input as "all", "no", valid index in search result, or "invalid" input
+    
+    Parameters
+    ----------
+    user_input: user's input option
+    result_len: valid index range
+    
+    Returns
+    -------
+    string: "all" "no", "invalid"
+    or
+    index: valid index in search result
+    '''
+
     if user_input.lower() == "all":
         return "all"
     elif user_input.lower() == "no" or user_input.lower() == "n" :
@@ -193,6 +259,19 @@ def valid_check_info(user_input, result_len):
 
 
 def getDetail(id_list, omdb_cache):
+    '''
+    update omdb_cache to retrieve detailed moive information
+    based on moive id from id_list
+    
+    Parameters
+    ----------
+    id_list: list of movie id
+    omdb_cache: dictionary -- saved detailed information of movies
+    
+    Returns
+    -------
+    omdb_cache: updated omdb_cache 
+    '''
     for id in id_list:
         if id not in omdb_cache:
             omdb_params = {
@@ -206,6 +285,21 @@ def getDetail(id_list, omdb_cache):
 
 
 def check_info(search_q, key_cache, all_cache, omdb_cache):
+    '''
+    let user choose to check specific moive information
+    or all of the moive information
+    
+    Parameters
+    ----------
+    search_q: user input search query
+    key_cache: dictionary -- saved search query and corresponding movie id
+    all_cache: dictionary -- saved basic information of movies
+    omdb_cache: dictionary -- saved detailed information of movies
+    
+    Returns
+    -------
+    omdb_cache: updated omdb_cache
+    '''
     while True:
         user_choice = input("Would you like to view detailed information?\nReplay the index of moive or 'all' to view. Reply 'no' to next step: ")
 
@@ -239,11 +333,26 @@ def check_info(search_q, key_cache, all_cache, omdb_cache):
 
 
 def displayplots(key, plot_name, id_list, omdb_cache):
+    '''
+    based on user selected key plot the corresponding visualization
+    
+    Parameters
+    ----------
+    key: user selected plot type
+    plot_name: name for the plot
+    id_list: list of moive id
+    omdb_cache: dictionary -- saved detailed information of movies
+    
+    Returns
+    -------
+    omdb_cache: updated omdb_cache
+    '''
     all = []
     items = []
     movies = []
 
     for id in id_list:
+        # update the omdb_cache if the moive id was not cached before
         if id not in omdb_cache:
             omdb_cache = getDetail([id], omdb_cache)
         if key == "Runtime" and omdb_cache[id][key] != "N/A":
@@ -268,7 +377,6 @@ def displayplots(key, plot_name, id_list, omdb_cache):
                 all.append([imdbVotes, omdb_cache[id]['Title'] + " (" + omdb_cache[id]['Released'] + ")"])
                 all.sort()
 
-
     items = [item[0] for item in all]
     movies = [item[1] for item in all]
     
@@ -282,6 +390,18 @@ def displayplots(key, plot_name, id_list, omdb_cache):
 
 
 def visualize(id_list, omdb_cache):
+    '''
+    plot the selected moive data visualization based on user's choice
+    
+    Parameters
+    ----------
+    id_list: list of moive id
+    omdb_cache: dictionary -- saved detailed information of movies
+    
+    Returns
+    -------
+    omdb_cache: updated omdb_cache
+    '''
 
     user_choice = input('''
 Please choose the data visualization:
@@ -325,6 +445,12 @@ Your Choice: ''')
 
 
 def main():
+    '''
+    main function, controlled the while loop to repeatedly respond to 
+    user's search query and selected actions.
+    
+    '''
+
     if_quit = False
 
     # load cache
@@ -389,8 +515,6 @@ def main():
     print("Goodbye!")
 
     save_cache(all_cache, key_cache, omdb_cache)
-    
-    #用两个api， 一个根据关键字return movielist （后期加入别的api search key），根据list到另一个api (open movie dataset) fetch movie的信息
 
 
 if __name__ == '__main__':

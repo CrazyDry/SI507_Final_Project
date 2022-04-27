@@ -1,65 +1,61 @@
 {
-  "tt1826684": {
-    "Title": "Green",
-    "Year": "2011",
-    "Rated": "Unrated",
-    "Released": "07 Sep 2012",
-    "Runtime": "73 min",
-    "Genre": "Drama, Thriller",
-    "Director": "Sophia Takal",
-    "Writer": "Sophia Takal",
-    "Actors": "Kate Lyn Sheil, Sophia Takal, Lawrence Michael Levine",
-    "Plot": "A New Yorker moves to the country with her boyfriend, where her new friendship causes a problem as her partner also takes an interest in the woman.",
+  "tt1015474": {
+    "Title": "Train",
+    "Year": "2008",
+    "Rated": "R",
+    "Released": "02 May 2009",
+    "Runtime": "94 min",
+    "Genre": "Horror, Thriller",
+    "Director": "Gideon Raff",
+    "Writer": "Gideon Raff",
+    "Actors": "Thora Birch, Gideon Emery, Kavan Reece",
+    "Plot": "In Europe, a group of American college athletes unknowingly board a train that will become one deadly ride.",
     "Language": "English",
     "Country": "United States",
-    "Awards": "3 wins & 4 nominations",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMTUwODQ1NTQ5MF5BMl5BanBnXkFtZTgwMjM1NTA2MDE@._V1_SX300.jpg",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzQ0ZDM3MjUtZTAwNi00ZWEyLWE5NWEtOTI4OWFlYjI5YTk1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "5.5/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "80%"
+        "Value": "4.7/10"
       }
     ],
     "Metascore": "N/A",
-    "imdbRating": "5.5",
-    "imdbVotes": "351",
-    "imdbID": "tt1826684",
+    "imdbRating": "4.7",
+    "imdbVotes": "6,465",
+    "imdbID": "tt1015474",
     "Type": "movie",
-    "DVD": "03 Jun 2013",
+    "DVD": "17 Nov 2009",
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt7060688": {
-    "Title": "Green",
-    "Year": "2018",
+  "tt7613260": {
+    "Title": "Keteke",
+    "Year": "2017",
     "Rated": "N/A",
-    "Released": "10 Mar 2018",
-    "Runtime": "12 min",
-    "Genre": "Short, Action, Drama",
-    "Director": "Suzanne Andrews Correa",
-    "Writer": "Suzanne Andrews Correa, Mustafa Kaymak",
-    "Actors": "Erol Afsin, Victoria Ric, Aziz \u00c7apkurt, Madeline McCray",
-    "Plot": "An undocumented Turkish pedicab driver unwittingly draws police attention, endangering his brother, his community, and himself.",
-    "Language": "English, Turkish",
-    "Country": "USA",
-    "Awards": "5 wins & 4 nominations.",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMjZmMmFjNDEtM2UyZi00OTRhLWJjYzUtYjdmOWU0Nzg2ZTMzXkEyXkFqcGdeQXVyNjc3NTg0NzQ@._V1_SX300.jpg",
+    "Released": "04 Mar 2017",
+    "Runtime": "98 min",
+    "Genre": "Comedy, Drama, Romance",
+    "Director": "Peter Sedufia",
+    "Writer": "Peter Sedufia",
+    "Actors": "Edwin Acquah, Fred Nii Amugi, Adjetey Anang",
+    "Plot": "It's the 80s rail service system, and the train is the only means of transport from the outskirts. A couple - BOI (Adjetey Anang) and ATSWEI (Lydia Forson) is bent on delivering their first baby in Akete but misses their first train.",
+    "Language": "English, Akan",
+    "Country": "Ghana",
+    "Awards": "1 nomination",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOWQ1YWUyM2MtMDM0Yi00ZmU4LWI3NWQtZWJkMWU2ODMxZTU2XkEyXkFqcGdeQXVyNjAyNzk4MjQ@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "5.6/10"
+        "Value": "6.2/10"
       }
     ],
     "Metascore": "N/A",
-    "imdbRating": "5.6",
-    "imdbVotes": "72",
-    "imdbID": "tt7060688",
+    "imdbRating": "6.2",
+    "imdbVotes": "329",
+    "imdbID": "tt7613260",
     "Type": "movie",
     "DVD": "N/A",
     "BoxOffice": "N/A",
@@ -67,101 +63,96 @@
     "Website": "N/A",
     "Response": "True"
   },
-  "tt5816020": {
-    "Title": "Green",
-    "Year": "2016",
-    "Rated": "TV-MA",
-    "Released": "21 Oct 2016",
-    "Runtime": "22 min",
-    "Genre": "Short, Action, Crime",
-    "Director": "Alonso Ruizpalacios",
-    "Writer": "N/A",
-    "Actors": "Ra\u00fal Briones, Tenoch Huerta, Jos\u00e9 Luis Perez",
-    "Plot": "Ariel, a taciturn security guard who transports other people's millions every day alongside his talkative fellow guards, has just found out that he is about to become a father for the first time",
-    "Language": "Spanish",
-    "Country": "Mexico",
-    "Awards": "2 wins & 2 nominations",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMzFmNWZmY2QtMTNkOC00OWM2LWEzYTktODQ0YTI1NTgwZWFiXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_SX300.jpg",
-    "Ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.4/10"
-      }
-    ],
+  "tt12593682": {
+    "Title": "Bullet Train",
+    "Year": "2022",
+    "Rated": "N/A",
+    "Released": "29 Jul 2022",
+    "Runtime": "N/A",
+    "Genre": "Action, Thriller",
+    "Director": "David Leitch",
+    "Writer": "K\u00f4tar\u00f4 Isaka, Zak Olkewicz",
+    "Actors": "Sandra Bullock, Brad Pitt, Zazie Beetz",
+    "Plot": "Five assassins aboard a fast moving bullet train find out their missions have something in common.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNmZkMGJlODktNzMzMC00MmY2LTkzNDgtMjUwOWFiNjFjZGIwXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+    "Ratings": [],
     "Metascore": "N/A",
-    "imdbRating": "6.4",
-    "imdbVotes": "75",
-    "imdbID": "tt5816020",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt12593682",
     "Type": "movie",
-    "DVD": "26 Jul 2017",
+    "DVD": "N/A",
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt9243946": {
-    "Title": "El Camino: A Breaking Bad Movie",
-    "Year": "2019",
-    "Rated": "TV-MA",
-    "Released": "11 Oct 2019",
-    "Runtime": "122 min",
-    "Genre": "Action, Crime, Drama",
-    "Director": "Vince Gilligan",
-    "Writer": "Vince Gilligan",
-    "Actors": "Aaron Paul, Jonathan Banks, Matt Jones",
-    "Plot": "Fugitive Jesse Pinkman runs from his captors, the law, and his past.",
-    "Language": "English, Spanish",
+  "tt1457767": {
+    "Title": "The Conjuring",
+    "Year": "2013",
+    "Rated": "R",
+    "Released": "19 Jul 2013",
+    "Runtime": "112 min",
+    "Genre": "Horror, Mystery, Thriller",
+    "Director": "James Wan",
+    "Writer": "Chad Hayes, Carey W. Hayes",
+    "Actors": "Patrick Wilson, Vera Farmiga, Ron Livingston",
+    "Plot": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+    "Language": "English, Latin",
     "Country": "United States",
-    "Awards": "Nominated for 4 Primetime Emmys. 4 wins & 24 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BNjk4MzVlM2UtZGM0ZC00M2M1LThkMWEtZjUyN2U2ZTc0NmM5XkEyXkFqcGdeQXVyOTAzMTc2MjA@._V1_SX300.jpg",
+    "Awards": "15 wins & 22 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "7.3/10"
+        "Value": "7.5/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "91%"
+        "Value": "86%"
       },
       {
         "Source": "Metacritic",
-        "Value": "72/100"
+        "Value": "68/100"
       }
     ],
-    "Metascore": "72",
-    "imdbRating": "7.3",
-    "imdbVotes": "219,505",
-    "imdbID": "tt9243946",
+    "Metascore": "68",
+    "imdbRating": "7.5",
+    "imdbVotes": "488,294",
+    "imdbID": "tt1457767",
     "Type": "movie",
-    "DVD": "11 Oct 2019",
-    "BoxOffice": "N/A",
+    "DVD": "22 Oct 2013",
+    "BoxOffice": "$137,446,368",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt6966692": {
-    "Title": "Green Book",
-    "Year": "2018",
-    "Rated": "PG-13",
-    "Released": "16 Nov 2018",
-    "Runtime": "130 min",
-    "Genre": "Biography, Comedy, Drama",
-    "Director": "Peter Farrelly",
-    "Writer": "Nick Vallelonga, Brian Hayes Currie, Peter Farrelly",
-    "Actors": "Viggo Mortensen, Mahershala Ali, Linda Cardellini",
-    "Plot": "A working-class Italian-American bouncer becomes the driver of an African-American classical pianist on a tour of venues through the 1960s American South.",
-    "Language": "English, Italian, Russian, German",
-    "Country": "United States, China",
-    "Awards": "Won 3 Oscars. 59 wins & 124 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_SX300.jpg",
+  "tt0139654": {
+    "Title": "Training Day",
+    "Year": "2001",
+    "Rated": "R",
+    "Released": "05 Oct 2001",
+    "Runtime": "122 min",
+    "Genre": "Action, Crime, Drama",
+    "Director": "Antoine Fuqua",
+    "Writer": "David Ayer",
+    "Actors": "Denzel Washington, Ethan Hawke, Scott Glenn",
+    "Plot": "A rookie cop spends his first day as a Los Angeles narcotics officer with a rogue detective who isn't what he appears to be.",
+    "Language": "English, Russian, Spanish, Korean, Greek",
+    "Country": "United States",
+    "Awards": "Won 1 Oscar. 18 wins & 23 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMDZkMTUxYWEtMDY5NS00ZTA5LTg3MTItNTlkZWE1YWRjYjMwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "8.2/10"
+        "Value": "7.7/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "77%"
+        "Value": "73%"
       },
       {
         "Source": "Metacritic",
@@ -169,115 +160,214 @@
       }
     ],
     "Metascore": "69",
-    "imdbRating": "8.2",
-    "imdbVotes": "456,971",
-    "imdbID": "tt6966692",
+    "imdbRating": "7.7",
+    "imdbVotes": "422,987",
+    "imdbID": "tt0139654",
     "Type": "movie",
-    "DVD": "12 Mar 2019",
-    "BoxOffice": "$85,080,171",
+    "DVD": "19 Mar 2002",
+    "BoxOffice": "$76,631,907",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt7737786": {
-    "Title": "Greenland",
-    "Year": "2020",
-    "Rated": "PG-13",
-    "Released": "18 Dec 2020",
-    "Runtime": "119 min",
-    "Genre": "Action, Drama, Sci-Fi",
-    "Director": "Ric Roman Waugh",
-    "Writer": "Chris Sparling",
-    "Actors": "Gerard Butler, Morena Baccarin, Roger Dale Floyd",
-    "Plot": "A family struggles for survival in the face of a cataclysmic natural disaster.",
-    "Language": "English, Spanish, Russian",
-    "Country": "United States, United Kingdom",
-    "Awards": "1 win & 2 nominations",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMzcyMzU4MDUtM2JhOC00ZDg2LTg5MGMtZjc2OGMyMjhlMGE2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+  "tt0117951": {
+    "Title": "Trainspotting",
+    "Year": "1996",
+    "Rated": "R",
+    "Released": "09 Aug 1996",
+    "Runtime": "93 min",
+    "Genre": "Drama",
+    "Director": "Danny Boyle",
+    "Writer": "Irvine Welsh, John Hodge",
+    "Actors": "Ewan McGregor, Ewen Bremner, Jonny Lee Miller",
+    "Plot": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+    "Language": "English",
+    "Country": "United Kingdom",
+    "Awards": "Nominated for 1 Oscar. 23 wins & 35 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMzA5Zjc3ZTMtMmU5YS00YTMwLWI4MWUtYTU0YTVmNjVmODZhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "6.4/10"
+        "Value": "8.1/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "78%"
+        "Value": "91%"
       },
       {
         "Source": "Metacritic",
-        "Value": "64/100"
+        "Value": "83/100"
       }
     ],
-    "Metascore": "64",
-    "imdbRating": "6.4",
-    "imdbVotes": "110,682",
-    "imdbID": "tt7737786",
+    "Metascore": "83",
+    "imdbRating": "8.1",
+    "imdbVotes": "670,604",
+    "imdbID": "tt0117951",
     "Type": "movie",
-    "DVD": "26 Jan 2021",
+    "DVD": "01 Jun 2004",
+    "BoxOffice": "$16,491,080",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt5700672": {
+    "Title": "Train to Busan",
+    "Year": "2016",
+    "Rated": "Not Rated",
+    "Released": "20 Jul 2016",
+    "Runtime": "118 min",
+    "Genre": "Action, Horror, Thriller",
+    "Director": "Sang-ho Yeon",
+    "Writer": "Joo-Suk Park, Sang-ho Yeon",
+    "Actors": "Gong Yoo, Yu-mi Jung, Ma Dong-seok",
+    "Plot": "While a zombie virus breaks out in South Korea, passengers struggle to survive on the train from Seoul to Busan.",
+    "Language": "Korean, Hawaiian",
+    "Country": "South Korea",
+    "Awards": "35 wins & 39 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTkwOTQ4OTg0OV5BMl5BanBnXkFtZTgwMzQyOTM0OTE@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "94%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "73/100"
+      }
+    ],
+    "Metascore": "73",
+    "imdbRating": "7.6",
+    "imdbVotes": "206,321",
+    "imdbID": "tt5700672",
+    "Type": "movie",
+    "DVD": "17 Jan 2017",
+    "BoxOffice": "$2,129,768",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0094747": {
+    "Title": "Bird",
+    "Year": "1988",
+    "Rated": "R",
+    "Released": "30 Sep 1988",
+    "Runtime": "161 min",
+    "Genre": "Biography, Drama, Music",
+    "Director": "Clint Eastwood",
+    "Writer": "Joel Oliansky",
+    "Actors": "Forest Whitaker, Diane Venora, Michael Zelniker",
+    "Plot": "The troubled life and career of jazz musician Charlie \"Bird\" Parker.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 1 Oscar. 10 wins & 9 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMmZjODI2NDYtYzFhYy00Y2EzLThjNTQtYmY4M2FiYjUyYTAxXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "83%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "78/100"
+      }
+    ],
+    "Metascore": "78",
+    "imdbRating": "7.1",
+    "imdbVotes": "12,389",
+    "imdbID": "tt0094747",
+    "Type": "movie",
+    "DVD": "01 Jun 2010",
+    "BoxOffice": "$2,181,286",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt3291788": {
+    "Title": "Bird",
+    "Year": "2020",
+    "Rated": "N/A",
+    "Released": "20 Dec 2020",
+    "Runtime": "95 min",
+    "Genre": "Crime, Drama, Thriller",
+    "Director": "Dave Mack III",
+    "Writer": "Dave Mack III",
+    "Actors": "Alexis Michelle Cato, Lucas Jackson, Kevin Peake",
+    "Plot": "While running for her life, a witness with fragmented memories of a brutal murder crosses paths with a reluctant criminal in the midst of a heist gone wrong.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjAzMTgyMjkzMV5BMl5BanBnXkFtZTgwNzQ3NDgwNzE@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "4.3/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "4.3",
+    "imdbVotes": "279",
+    "imdbID": "tt3291788",
+    "Type": "movie",
+    "DVD": "N/A",
     "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt9243804": {
-    "Title": "The Green Knight",
-    "Year": "2021",
-    "Rated": "R",
-    "Released": "30 Jul 2021",
-    "Runtime": "130 min",
-    "Genre": "Adventure, Drama, Fantasy",
-    "Director": "David Lowery",
-    "Writer": "David Lowery, The Gawain Poet",
-    "Actors": "Dev Patel, Alicia Vikander, Joel Edgerton",
-    "Plot": "A fantasy retelling of the medieval story of Sir Gawain and the Green Knight.",
+  "tt6822956": {
+    "Title": "Bird",
+    "Year": "2017",
+    "Rated": "N/A",
+    "Released": "N/A",
+    "Runtime": "12 min",
+    "Genre": "Short, Drama",
+    "Director": "Molly Parker",
+    "Writer": "Molly Parker",
+    "Actors": "Clare Coulter, Samantha Duarte, G\u00e9za Kov\u00e1cs",
+    "Plot": "When Sam, a woman mired in regret, goes to visit her aged parents, the disappearance of her mother's pet bird threatens to unravel her tenuous hold on life.",
     "Language": "English",
-    "Country": "Ireland, Canada, United States",
-    "Awards": "21 wins & 108 nominations",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMjMxNTdiNWMtOWY0My00MjM4LTkwNzMtOGI0YThhN2Q4M2I4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-    "Ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.6/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "89%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "85/100"
-      }
-    ],
-    "Metascore": "85",
-    "imdbRating": "6.6",
-    "imdbVotes": "88,365",
-    "imdbID": "tt9243804",
+    "Country": "Canada",
+    "Awards": "1 nomination",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzI3NzU1MjEtOGM3MS00Nzk5LWI2Y2MtZTE5NTM4NmVmNTcwXkEyXkFqcGdeQXVyOTU0NTAyOQ@@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt6822956",
     "Type": "movie",
-    "DVD": "19 Aug 2021",
-    "BoxOffice": "$17,173,321",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt0120689": {
-    "Title": "The Green Mile",
-    "Year": "1999",
+  "tt7713068": {
+    "Title": "Birds of Prey",
+    "Year": "2020",
     "Rated": "R",
-    "Released": "10 Dec 1999",
-    "Runtime": "189 min",
-    "Genre": "Crime, Drama, Fantasy",
-    "Director": "Frank Darabont",
-    "Writer": "Stephen King, Frank Darabont",
-    "Actors": "Tom Hanks, Michael Clarke Duncan, David Morse",
-    "Plot": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
-    "Language": "English, French",
+    "Released": "07 Feb 2020",
+    "Runtime": "109 min",
+    "Genre": "Action, Adventure, Comedy",
+    "Director": "Cathy Yan",
+    "Writer": "Christina Hodson, Paul Dini, Bruce Timm",
+    "Actors": "Margot Robbie, Rosie Perez, Mary Elizabeth Winstead",
+    "Plot": "After splitting with the Joker, Harley Quinn joins superheroines Black Canary, Huntress and Renee Montoya to save a young girl from an evil crime lord.",
+    "Language": "English, Chinese",
     "Country": "United States",
-    "Awards": "Nominated for 4 Oscars. 15 wins & 37 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_SX300.jpg",
+    "Awards": "17 wins & 83 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMzQ3NTQxMjItODBjYi00YzUzLWE1NzQtZTBlY2Y2NjZlNzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "8.6/10"
+        "Value": "6.0/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -285,16 +375,212 @@
       },
       {
         "Source": "Metacritic",
-        "Value": "61/100"
+        "Value": "60/100"
       }
     ],
-    "Metascore": "61",
-    "imdbRating": "8.6",
-    "imdbVotes": "1,247,542",
-    "imdbID": "tt0120689",
+    "Metascore": "60",
+    "imdbRating": "6.0",
+    "imdbVotes": "227,336",
+    "imdbID": "tt7713068",
     "Type": "movie",
-    "DVD": "13 Jun 2000",
-    "BoxOffice": "$136,801,374",
+    "DVD": "23 Mar 2020",
+    "BoxOffice": "$84,172,791",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt2737304": {
+    "Title": "Bird Box",
+    "Year": "2018",
+    "Rated": "R",
+    "Released": "21 Dec 2018",
+    "Runtime": "124 min",
+    "Genre": "Horror, Sci-Fi",
+    "Director": "Susanne Bier",
+    "Writer": "Eric Heisserer, Josh Malerman",
+    "Actors": "Sandra Bullock, Trevante Rhodes, John Malkovich",
+    "Plot": "Five years after an ominous unseen presence drives most of society to suicide, a mother and her two children make a desperate bid to reach safety.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "5 wins & 9 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjAzMTI1MjMyN15BMl5BanBnXkFtZTgwNzU5MTE2NjM@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "64%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "51/100"
+      }
+    ],
+    "Metascore": "51",
+    "imdbRating": "6.6",
+    "imdbVotes": "321,946",
+    "imdbID": "tt2737304",
+    "Type": "movie",
+    "DVD": "21 Dec 2018",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt2562232": {
+    "Title": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "Year": "2014",
+    "Rated": "R",
+    "Released": "14 Nov 2014",
+    "Runtime": "119 min",
+    "Genre": "Comedy, Drama",
+    "Director": "Alejandro G. I\u00f1\u00e1rritu",
+    "Writer": "Alejandro G. I\u00f1\u00e1rritu, Nicol\u00e1s Giacobone, Alexander Dinelaris",
+    "Actors": "Michael Keaton, Zach Galifianakis, Edward Norton",
+    "Plot": "A washed-up superhero actor attempts to revive his fading career by writing, directing, and starring in a Broadway production.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 4 Oscars. 193 wins & 292 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "91%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "87/100"
+      }
+    ],
+    "Metascore": "87",
+    "imdbRating": "7.7",
+    "imdbVotes": "614,785",
+    "imdbID": "tt2562232",
+    "Type": "movie",
+    "DVD": "17 Feb 2015",
+    "BoxOffice": "$42,340,598",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0115685": {
+    "Title": "The Birdcage",
+    "Year": "1996",
+    "Rated": "R",
+    "Released": "08 Mar 1996",
+    "Runtime": "117 min",
+    "Genre": "Comedy",
+    "Director": "Mike Nichols",
+    "Writer": "Jean Poiret, Francis Veber, \u00c9douard Molinaro",
+    "Actors": "Robin Williams, Nathan Lane, Gene Hackman",
+    "Plot": "A gay cabaret owner and his drag queen companion agree to put up a false straight front so that their son can introduce them to his fianc\u00e9e's right-wing moralistic parents.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Nominated for 1 Oscar. 7 wins & 25 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTM2NjExODYyOF5BMl5BanBnXkFtZTcwNTc0NjgyNA@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "81%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "72/100"
+      }
+    ],
+    "Metascore": "72",
+    "imdbRating": "7.1",
+    "imdbVotes": "87,743",
+    "imdbID": "tt0115685",
+    "Type": "movie",
+    "DVD": "27 Aug 1997",
+    "BoxOffice": "$124,060,553",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0056869": {
+    "Title": "The Birds",
+    "Year": "1963",
+    "Rated": "PG-13",
+    "Released": "29 Mar 1963",
+    "Runtime": "119 min",
+    "Genre": "Drama, Horror, Mystery",
+    "Director": "Alfred Hitchcock",
+    "Writer": "Daphne Du Maurier, Evan Hunter",
+    "Actors": "Rod Taylor, Tippi Hedren, Jessica Tandy",
+    "Plot": "A wealthy San Francisco socialite pursues a potential boyfriend to a small Northern California town that slowly takes a turn for the bizarre when birds of all kinds suddenly begin to attack people.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Nominated for 1 Oscar. 5 wins & 7 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTAxNDA1ODc5MDleQTJeQWpwZ15BbWU4MDg2MDA4OTEx._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "95%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "90/100"
+      }
+    ],
+    "Metascore": "90",
+    "imdbRating": "7.7",
+    "imdbVotes": "184,261",
+    "imdbID": "tt0056869",
+    "Type": "movie",
+    "DVD": "02 Sep 2003",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt4061620": {
+    "Title": "Firebird",
+    "Year": "2021",
+    "Rated": "N/A",
+    "Released": "29 Apr 2022",
+    "Runtime": "107 min",
+    "Genre": "Drama, Romance",
+    "Director": "Peeter Rebane",
+    "Writer": "Peeter Rebane, Tom Prior, Sergey Fetisov",
+    "Actors": "Tom Prior, Oleg Zagorodnii, Diana Pozharskaya",
+    "Plot": "Firebird follows a handsome, soulful young soldier who embarks on a clandestine sexual affair with a charismatic fighter pilot on a Soviet Air Force Base at the height of 1970's Communist rule.",
+    "Language": "English",
+    "Country": "Estonia, United Kingdom",
+    "Awards": "6 wins & 2 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYjhmMWY0ODAtMGRlZC00NGUwLWJlZGMtMzEzODkwODg1ZTA3XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.4/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "88%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.4",
+    "imdbVotes": "4,632",
+    "imdbID": "tt4061620",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
