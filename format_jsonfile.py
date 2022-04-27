@@ -9,6 +9,9 @@ a = a.replace("}\n{", "},{")
 a = "[" + a + "]"
 b = json.loads(a)
 
+print("# of movie: ", len(b))
+# 1572
+
 new = {}
 for item in b:
     new[item['movie_id']] = item
