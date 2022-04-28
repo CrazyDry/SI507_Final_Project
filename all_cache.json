@@ -1027,5 +1027,47 @@
     "image": "https://imdb-api.com/images/original/MV5BYjhmMWY0ODAtMGRlZC00NGUwLWJlZGMtMzEzODkwODg1ZTA3XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_Ratio0.7273_AL_.jpg",
     "title": "Firebird",
     "description": "(I) (2021)"
+  },
+  "tt0078346": {
+    "id": "tt0078346",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMzA0YWMwMTUtMTVhNC00NjRkLWE2ZTgtOWEzNjJhYzNiMTlkXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Superman",
+    "description": "(1978)"
+  },
+  "tt0770828": {
+    "id": "tt0770828",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Man of Steel",
+    "description": "(2013) aka \"Superman: \u010covjek od \u010delika\""
+  },
+  "tt0348150": {
+    "id": "tt0348150",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BNzY2ZDQ2MTctYzlhOC00MWJhLTgxMmItMDgzNDQwMDdhOWI2XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Superman Returns",
+    "description": "(2006)"
+  },
+  "tt0081573": {
+    "id": "tt0081573",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BODk2NjgzNTEtYzZhZC00ZTBkLTllMGQtMmMxMzU1NDRkM2RlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Superman II",
+    "description": "(1980)"
+  },
+  "tt0086393": {
+    "id": "tt0086393",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BMzI3ZDllMTctNmI2Mi00OGQ4LTk2ZTQtYTJhMjA5ZGI2YmRkXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_Ratio0.7273_AL_.jpg",
+    "title": "Superman III",
+    "description": "(1983)"
+  },
+  "tt18689424": {
+    "id": "tt18689424",
+    "resultType": "Title",
+    "image": "https://imdb-api.com/images/original/MV5BYzgyMTMzZjUtNGNjMy00NTJjLWIzNDYtMTc2YzQwOGE5MGM4XkEyXkFqcGdeQXVyMTUwODYzMjcw._V1_Ratio0.7273_AL_.jpg",
+    "title": "Batman v Superman: Dawn of Justice Ultimate Edition",
+    "description": "(2016)"
   }
 }
