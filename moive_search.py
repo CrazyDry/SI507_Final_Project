@@ -4,97 +4,18 @@ import os
 import requests
 import json
 import plotly.graph_objects as go 
+from load_save_cache import *
 
 
-API_KEY_imdb = "k_zg8su4hn"
-base_url_imdb = "https://imdb-api.com/en/API/SearchMovie/" # default search api
+API_KEY_imdb = "k_zg8su4hn" # replaced your key
+base_url_imdb = "https://imdb-api.com/en/API/SearchMovie/" # movie search api
 
 API_KEY_omdb = "67ea6826"
-base_url_omdb = "http://www.omdbapi.com/"
+base_url_omdb = "http://www.omdbapi.com/" # replaced your key
 
-ALL_CACHE_FILE = 'all_cache.json'
-KEY_CACHE_FILE = 'key_cache.json'
-OMDB_CACHE_FILE = 'omdb_cache.json'
-
-
-def load_cache(all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE, omdb_cache_name=OMDB_CACHE_FILE):
-    '''
-    Load cache if there is any, else return empty cache file.
-    
-    Parameters
-    ----------
-    all_cache_name: default filename is "all_cache.json"
-    key_cache_name: default filename is "key_cache.json"
-    omdb_cache_name: default filename is "omdb_cache.json"
-    
-    Returns
-    -------
-    all_cache: dictionary -- saved condensed information of movies
-    key_cache: dictionary -- saved search query and corresponding movie id
-    omdb_cache: dictionary -- saved detailed information of movies
-    '''
-    try:
-        all_cache_file = open(all_cache_name, 'r')        
-
-        cache_file_contents = all_cache_file.read()
-        all_cache = json.loads(cache_file_contents)
-        all_cache_file.close()
-
-    except:
-        all_cache = {}
-    
-    try:
-        key_cache_file = open(key_cache_name, 'r')
-
-        cache_file_contents = key_cache_file.read()
-        key_cache = json.loads(cache_file_contents)
-        key_cache_file.close()
-    except:
-        key_cache = {}
-    
-    try:
-        omdb_cache_file = open(omdb_cache_name, 'r')
-
-        cache_file_contents = omdb_cache_file.read()
-        omdb_cache = json.loads(cache_file_contents)
-        omdb_cache.close()
-    except:
-        omdb_cache = {}
-
-    return all_cache, key_cache, omdb_cache
-
-
-def save_cache(all_cache, key_cache, omdb_cache, all_cache_name=ALL_CACHE_FILE, key_cache_name=KEY_CACHE_FILE, omdb_cache_name=OMDB_CACHE_FILE):
-    '''
-    Save the caches
-    
-    Parameters
-    ----------
-    all_cache: dictionary -- saved condensed information of movies
-    key_cache: dictionary -- saved search query and corresponding movie id
-    omdb_cache: dictionary -- saved detailed information of movies
-    all_cache_name: default filename is "all_cache.json"
-    key_cache_name: default filename is "key_cache.json"
-    omdb_cache_name: default filename is "omdb_cache.json"
-    
-    Returns
-    -------
-    None
-    '''
-    cache_file = open(all_cache_name, 'w')
-    contents_to_write = json.dumps(all_cache, indent=2)
-    cache_file.write(contents_to_write)
-    cache_file.close()
-
-    cache_file = open(key_cache_name, 'w')
-    contents_to_write = json.dumps(key_cache, indent=2)
-    cache_file.write(contents_to_write)
-    cache_file.close()
-
-    cache_file = open(omdb_cache_name, 'w')
-    contents_to_write = json.dumps(omdb_cache, indent=2)
-    cache_file.write(contents_to_write)
-    cache_file.close()
+# ALL_CACHE_FILE = 'all_cache.json'
+# KEY_CACHE_FILE = 'key_cache.json'
+# OMDB_CACHE_FILE = 'omdb_cache.json'
 
 
 def display_result(search_q, results_key, all_cache):
@@ -154,40 +75,42 @@ def display_detail(search_q, id_list, omdb_cache):
     for id in id_list:
         summary = IMDB_moive_info[id]['plot_summary'] if id in IMDB_moive_info else "Not Available"
         synopsis = IMDB_moive_info[id]['plot_synopsis'] if id in IMDB_moive_info else "Not Available"
-
-        text += '''
-        <li>
-            <h3>{title} ({Year}, {Country})</h3>
-            <br>
-            <img src={img_url}>
-            <br>
-            <p>Released: {Released}</p>
-            <p>Runtime: {Runtime}</p>
-            <p>Genre: {Genre}</p>
-            <p>Director: {Director}</p>
-            <p>Actors: {Actors}</p>
-            <p>Plot: {Plot}</p>
-            <p>Language: {Language}</p>
-            <p>IMDB Rating: {imdbRating}</p>
-            <p>Plot Summary: {plot_summary}</p>
-            <p>Plot Summary: {plot_synopsis}</p>
-        </li>
-        '''.format(
-            title = omdb_cache[id]['Title'],
-            Year = omdb_cache[id]['Year'],
-            Country = omdb_cache[id]['Country'],
-            img_url = omdb_cache[id]['Poster'], 
-            Released = omdb_cache[id]['Released'],
-            Runtime = omdb_cache[id]['Runtime'],
-            Genre = omdb_cache[id]['Genre'],
-            Director = omdb_cache[id]['Director'],
-            Actors = omdb_cache[id]['Actors'],
-            Plot = omdb_cache[id]['Plot'],
-            Language = omdb_cache[id]['Language'],
-            imdbRating = omdb_cache[id]['imdbRating'],
-            plot_summary = summary,
-            plot_synopsis = synopsis,
-        )
+        try:
+            text += '''
+            <li>
+                <h3>{title} ({Year}, {Country})</h3>
+                <br>
+                <img src={img_url}>
+                <br>
+                <p>Released: {Released}</p>
+                <p>Runtime: {Runtime}</p>
+                <p>Genre: {Genre}</p>
+                <p>Director: {Director}</p>
+                <p>Actors: {Actors}</p>
+                <p>Plot: {Plot}</p>
+                <p>Language: {Language}</p>
+                <p>IMDB Rating: {imdbRating}</p>
+                <p>Plot Summary: {plot_summary}</p>
+                <p>Plot Synopsis: {plot_synopsis}</p>
+            </li>
+            '''.format(
+                title = omdb_cache[id]['Title'],
+                Year = omdb_cache[id]['Year'],
+                Country = omdb_cache[id]['Country'],
+                img_url = omdb_cache[id]['Poster'], 
+                Released = omdb_cache[id]['Released'],
+                Runtime = omdb_cache[id]['Runtime'],
+                Genre = omdb_cache[id]['Genre'],
+                Director = omdb_cache[id]['Director'],
+                Actors = omdb_cache[id]['Actors'],
+                Plot = omdb_cache[id]['Plot'],
+                Language = omdb_cache[id]['Language'],
+                imdbRating = omdb_cache[id]['imdbRating'],
+                plot_summary = summary,
+                plot_synopsis = synopsis,
+            )
+        except:
+            continue
 
 
     text += '''

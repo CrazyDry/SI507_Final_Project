@@ -1,143 +1,86 @@
 {
-  "tt0078346": {
-    "Title": "Superman",
-    "Year": "1978",
-    "Rated": "PG",
-    "Released": "15 Dec 1978",
-    "Runtime": "143 min",
-    "Genre": "Action, Adventure, Sci-Fi",
-    "Director": "Richard Donner",
-    "Writer": "Jerry Siegel, Joe Shuster, Mario Puzo",
-    "Actors": "Christopher Reeve, Margot Kidder, Gene Hackman",
-    "Plot": "An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero.",
+  "tt11018062": {
+    "Title": "Football",
+    "Year": "2021",
+    "Rated": "N/A",
+    "Released": "14 Feb 2021",
+    "Runtime": "N/A",
+    "Genre": "Drama",
+    "Director": "N/A",
+    "Writer": "Shoib Nikash Shah",
+    "Actors": "Rani Bhan, Azmat Khwaja, Namita Lal",
+    "Plot": "N/A",
+    "Language": "Hindi",
+    "Country": "India",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMmY0ZWY5OGUtZTZkZi00MmZjLTkyNjEtMzg2YTgyZDFmZDAzXkEyXkFqcGdeQXVyOTE4MTIxMDY@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt11018062",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt18547866": {
+    "Response": "False",
+    "Error": "Error getting data."
+  },
+  "tt0297122": {
+    "Title": "Football",
+    "Year": "2001",
+    "Rated": "N/A",
+    "Released": "N/A",
+    "Runtime": "8 min",
+    "Genre": "Short, Comedy, Sport",
+    "Director": "Gaby Dellal",
+    "Writer": "Gaby Dellal",
+    "Actors": "Helena Bonham Carter, Ewan Stewart, Sam Williams, Eileen Webb",
+    "Plot": "Lots of young British boys want to become great footballers. Does young Midge have what it takes? Watch as he goes from cradle to...?",
     "Language": "English",
-    "Country": "United States, United Kingdom, Canada",
-    "Awards": "Nominated for 3 Oscars. 17 wins & 23 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMzA0YWMwMTUtMTVhNC00NjRkLWE2ZTgtOWEzNjJhYzNiMTlkXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+    "Country": "UK",
+    "Awards": "3 wins.",
+    "Poster": "N/A",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "7.4/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "94%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "81/100"
+        "Value": "6.2/10"
       }
     ],
-    "Metascore": "81",
-    "imdbRating": "7.4",
-    "imdbVotes": "171,767",
-    "imdbID": "tt0078346",
+    "Metascore": "N/A",
+    "imdbRating": "6.2",
+    "imdbVotes": "71",
+    "imdbID": "tt0297122",
     "Type": "movie",
-    "DVD": "01 May 2001",
-    "BoxOffice": "$134,478,449",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt0770828": {
-    "Title": "Man of Steel",
-    "Year": "2013",
+  "tt0286499": {
+    "Title": "Bend It Like Beckham",
+    "Year": "2002",
     "Rated": "PG-13",
-    "Released": "14 Jun 2013",
-    "Runtime": "143 min",
-    "Genre": "Action, Adventure, Sci-Fi",
-    "Director": "Zack Snyder",
-    "Writer": "David S. Goyer, Christopher Nolan, Jerry Siegel",
-    "Actors": "Henry Cavill, Amy Adams, Michael Shannon",
-    "Plot": "An alien child is evacuated from his dying world and sent to Earth to live among humans. His peace is threatened when other survivors of his home planet invade Earth.",
-    "Language": "English",
-    "Country": "United States, United Kingdom",
-    "Awards": "Nominated for 1 BAFTA Film Award7 wins & 46 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_SX300.jpg",
+    "Released": "01 Aug 2003",
+    "Runtime": "112 min",
+    "Genre": "Comedy, Drama, Romance",
+    "Director": "Gurinder Chadha",
+    "Writer": "Gurinder Chadha, Guljit Bindra, Paul Mayeda Berges",
+    "Actors": "Parminder Nagra, Keira Knightley, Jonathan Rhys Meyers",
+    "Plot": "Two ambitious girls, despite their parents' wishes, have their hearts set on careers in professional soccer.",
+    "Language": "English, Punjabi, Hindi, German",
+    "Country": "United Kingdom, Germany, United States",
+    "Awards": "Nominated for 1 BAFTA Award17 wins & 20 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTg1Njk5NjczM15BMl5BanBnXkFtZTYwNjc2NTQ3._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "7.1/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "56%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "55/100"
-      }
-    ],
-    "Metascore": "55",
-    "imdbRating": "7.1",
-    "imdbVotes": "748,617",
-    "imdbID": "tt0770828",
-    "Type": "movie",
-    "DVD": "12 Nov 2013",
-    "BoxOffice": "$291,045,518",
-    "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
-  },
-  "tt0348150": {
-    "Title": "Superman Returns",
-    "Year": "2006",
-    "Rated": "PG-13",
-    "Released": "28 Jun 2006",
-    "Runtime": "154 min",
-    "Genre": "Action, Adventure, Sci-Fi",
-    "Director": "Bryan Singer",
-    "Writer": "Michael Dougherty, Dan Harris, Bryan Singer",
-    "Actors": "Brandon Routh, Kevin Spacey, Kate Bosworth",
-    "Plot": "Superman returns to Earth after spending five years in space examining his homeworld Krypton. But he finds things have changed while he was gone, and he must once again prove himself important to the world.",
-    "Language": "English, German, French",
-    "Country": "United States, Australia",
-    "Awards": "Nominated for 1 Oscar. 12 wins & 47 nominations total",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BNzY2ZDQ2MTctYzlhOC00MWJhLTgxMmItMDgzNDQwMDdhOWI2XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
-    "Ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.1/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "74%"
-      },
-      {
-        "Source": "Metacritic",
-        "Value": "72/100"
-      }
-    ],
-    "Metascore": "72",
-    "imdbRating": "6.1",
-    "imdbVotes": "281,010",
-    "imdbID": "tt0348150",
-    "Type": "movie",
-    "DVD": "28 Nov 2006",
-    "BoxOffice": "$200,081,192",
-    "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
-  },
-  "tt0081573": {
-    "Title": "Superman II",
-    "Year": "1980",
-    "Rated": "PG",
-    "Released": "19 Jun 1981",
-    "Runtime": "127 min",
-    "Genre": "Action, Adventure, Sci-Fi",
-    "Director": "Richard Lester, Richard Donner",
-    "Writer": "Jerry Siegel, Joe Shuster, Mario Puzo",
-    "Actors": "Gene Hackman, Christopher Reeve, Margot Kidder",
-    "Plot": "Superman agrees to sacrifice his powers to start a relationship with Lois Lane, unaware that three Kryptonian criminals he inadvertently released are conquering Earth.",
-    "Language": "English, French, Russian",
-    "Country": "United States, United Kingdom, Canada",
-    "Awards": "3 wins & 7 nominations",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BODk2NjgzNTEtYzZhZC00ZTBkLTllMGQtMmMxMzU1NDRkM2RlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
-    "Ratings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.8/10"
+        "Value": "6.7/10"
       },
       {
         "Source": "Rotten Tomatoes",
@@ -145,85 +88,148 @@
       },
       {
         "Source": "Metacritic",
-        "Value": "83/100"
+        "Value": "66/100"
       }
     ],
-    "Metascore": "83",
-    "imdbRating": "6.8",
-    "imdbVotes": "105,582",
-    "imdbID": "tt0081573",
+    "Metascore": "66",
+    "imdbRating": "6.7",
+    "imdbVotes": "109,224",
+    "imdbID": "tt0286499",
     "Type": "movie",
-    "DVD": "01 May 2001",
-    "BoxOffice": "$108,185,706",
+    "DVD": "30 Sep 2003",
+    "BoxOffice": "$32,543,449",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt0086393": {
-    "Title": "Superman III",
-    "Year": "1983",
-    "Rated": "PG",
-    "Released": "17 Jun 1983",
-    "Runtime": "125 min",
-    "Genre": "Action, Adventure, Comedy",
-    "Director": "Richard Lester",
-    "Writer": "Jerry Siegel, Joe Shuster, David Newman",
-    "Actors": "Christopher Reeve, Richard Pryor, Margot Kidder",
-    "Plot": "Synthetic kryptonite laced with tar splits Superman in two: good Clark Kent and bad Man of Steel.",
-    "Language": "English, Italian, Spanish",
+  "tt0385002": {
+    "Title": "Green Street Hooligans",
+    "Year": "2005",
+    "Rated": "R",
+    "Released": "09 Sep 2005",
+    "Runtime": "109 min",
+    "Genre": "Crime, Drama, Sport",
+    "Director": "Lexi Alexander",
+    "Writer": "Lexi Alexander, Dougie Brimson, Josh Shelov",
+    "Actors": "Elijah Wood, Charlie Hunnam, Claire Forlani",
+    "Plot": "A wrongfully expelled Harvard undergrad moves to London, where he is introduced to the violent underworld of football hooliganism.",
+    "Language": "English, Italian, German",
     "Country": "United Kingdom, United States",
-    "Awards": "2 wins & 7 nominations",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMzI3ZDllMTctNmI2Mi00OGQ4LTk2ZTQtYTJhMjA5ZGI2YmRkXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
+    "Awards": "4 wins",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjExNTg3NzYwMV5BMl5BanBnXkFtZTcwMzcxMTEzMQ@@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "5.0/10"
+        "Value": "7.4/10"
       },
       {
         "Source": "Rotten Tomatoes",
-        "Value": "29%"
+        "Value": "47%"
       },
       {
         "Source": "Metacritic",
-        "Value": "44/100"
+        "Value": "55/100"
       }
     ],
-    "Metascore": "44",
-    "imdbRating": "5.0",
-    "imdbVotes": "69,409",
-    "imdbID": "tt0086393",
+    "Metascore": "55",
+    "imdbRating": "7.4",
+    "imdbVotes": "149,379",
+    "imdbID": "tt0385002",
     "Type": "movie",
-    "DVD": "28 Nov 2006",
-    "BoxOffice": "$59,950,623",
+    "DVD": "25 Aug 2009",
+    "BoxOffice": "$346,830",
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
   },
-  "tt18689424": {
-    "Title": "Batman v Superman: Dawn of Justice Ultimate Edition",
-    "Year": "2016",
+  "tt0385705": {
+    "Title": "The Football Factory",
+    "Year": "2004",
     "Rated": "R",
-    "Released": "23 Mar 2016",
-    "Runtime": "182 min",
-    "Genre": "Action, Adventure, Sci-Fi",
-    "Director": "N/A",
-    "Writer": "N/A",
-    "Actors": "N/A",
-    "Plot": "Batman is manipulated by Lex Luthor to fear Superman. Superman\u00b4s existence is meanwhile dividing the world and he is framed for murder during an international crisis. The heroes clash and force the neutral Wonder Woman to reemerge.",
+    "Released": "14 May 2004",
+    "Runtime": "91 min",
+    "Genre": "Crime, Drama, Sport",
+    "Director": "Nick Love",
+    "Writer": "John King, Nick Love",
+    "Actors": "Danny Dyer, Frank Harper, Tamer Hassan",
+    "Plot": "An insight on the gritty life of a bored male, Chelsea football hooligan who lives for violence, sex, drugs &amp; alcohol.",
     "Language": "English",
-    "Country": "United States",
-    "Awards": "2 nominations",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BYzgyMTMzZjUtNGNjMy00NTJjLWIzNDYtMTc2YzQwOGE5MGM4XkEyXkFqcGdeQXVyMTUwODYzMjcw._V1_SX300.jpg",
+    "Country": "United States, United Kingdom",
+    "Awards": "1 win & 1 nomination",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNDUzYjVlNDktN2RmNS00NmE5LTkxMmUtNTc3NjIzNDdmZjY5XkEyXkFqcGdeQXVyNTMwNDQzODA@._V1_SX300.jpg",
     "Ratings": [
       {
         "Source": "Internet Movie Database",
-        "Value": "8.7/10"
+        "Value": "6.8/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "38%"
       }
     ],
     "Metascore": "N/A",
-    "imdbRating": "8.7",
-    "imdbVotes": "7,996",
-    "imdbID": "tt18689424",
+    "imdbRating": "6.8",
+    "imdbVotes": "30,507",
+    "imdbID": "tt0385705",
+    "Type": "movie",
+    "DVD": "13 Dec 2005",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0072236": {
+    "Title": "The Swinging Cheerleaders",
+    "Year": "1974",
+    "Rated": "R",
+    "Released": "25 Sep 1974",
+    "Runtime": "91 min",
+    "Genre": "Comedy, Sport",
+    "Director": "Jack Hill",
+    "Writer": "Jack Hill, David Kidd",
+    "Actors": "Jo Johnston, Cheryl Smith, Colleen Camp",
+    "Plot": "A college journalist infiltrates the campus' cheerleading squad to write an piece on female exploitation, but instead makes unlikely friendships and uncovers a conspiracy involving the football team's coach.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMmYxMTA3ODQtZjg2ZC00N2IxLTlmY2YtMzk3Mjg3NGVmOTNkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.1/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "5.1",
+    "imdbVotes": "1,067",
+    "imdbID": "tt0072236",
+    "Type": "movie",
+    "DVD": "20 Mar 2001",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt15035506": {
+    "Title": "Fantasy Football",
+    "Year": "2022",
+    "Rated": "N/A",
+    "Released": "N/A",
+    "Runtime": "N/A",
+    "Genre": "Action, Comedy, Sport",
+    "Director": "N/A",
+    "Writer": "Zoe Marshall",
+    "Actors": "Marsai Martin",
+    "Plot": "A 15 year old girl controls the dad's prowess who is a professional football player on the field through her video game.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "N/A",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt15035506",
     "Type": "movie",
     "DVD": "N/A",
     "BoxOffice": "N/A",
