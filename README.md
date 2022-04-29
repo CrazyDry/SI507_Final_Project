@@ -7,7 +7,7 @@ How to get API Keys:
 * Get the IMDb API key here: https://imdb-api.com/api. Register an account, and the key will appear in your profile.
 
 How to Run the code:
-* Replace the OMDB API key and IMDb API key with your keys in final_proj.py
+* Replace the OMDB API key and IMDb API key with your keys in movie_search.py
 * Simply run the Python 3 file final_proj.py, and enjoy the movie search by inputting your query and interactive option in the command-line tool
 
 Required packages and software:
@@ -64,7 +64,7 @@ Three data sources
 
 All my data is stored as tree structures in separate JSON files from the different data source.
 
-Function load_cache() and save_cache() in python file final_proj.py constructs trees from cached JSON files and stored data as JSON files.
+Function load_cache() and save_cache() in python file load_save.py constructs trees from cached JSON files and stored data as JSON files.
 * all_cache: JSON file contains brief data information stored in the tree structure.
 * key_cache: JSON file contains search query and response results, stored in the tree structure
 * omdb_cache: JSON file contains detailed data information stored in the tree structure. 
